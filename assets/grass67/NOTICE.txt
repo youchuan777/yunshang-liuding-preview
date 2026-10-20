@@ -1,0 +1,7 @@
+Leafy Grass — Charlotte Baglioni / Poly Haven
+CC0 1.0: https://polyhaven.com/license
+Source: https://polyhaven.com/a/leafy_grass
+Only 1K JPG diffuse, OpenGL normal and roughness downloaded from official files API.
+Provider MD5 and byte counts verified; SHA256 in manifest.
+Generic material sample, not local Six Ding Mountain vegetation survey.
+Source tile width is 2 metres per asset page.

@@ -1,0 +1,163 @@
+{
+  "schema": 91,
+  "geometry": "Original deterministic spreading and upright temperate growth forms; not identified tree species or park scan",
+  "seeds": [
+    531941,
+    911783
+  ],
+  "widthFactors": [
+    1,
+    0.72
+  ],
+  "models": [
+    {
+      "seed": 531941,
+      "lod": 0,
+      "form": "spreading",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1719,
+      "attractors": 1700,
+      "triangles": 210632,
+      "leaves": 23232,
+      "name": "broadleaf91-form0-lod0"
+    },
+    {
+      "seed": 531941,
+      "lod": 1,
+      "form": "spreading",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1719,
+      "attractors": 1700,
+      "triangles": 140936,
+      "leaves": 11616,
+      "name": "broadleaf91-form0-lod1"
+    },
+    {
+      "seed": 531941,
+      "lod": 2,
+      "form": "spreading",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1719,
+      "attractors": 1700,
+      "triangles": 52576,
+      "leaves": 2904,
+      "name": "broadleaf91-form0-lod2"
+    },
+    {
+      "seed": 911783,
+      "lod": 0,
+      "form": "upright",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1146,
+      "attractors": 1700,
+      "triangles": 145316,
+      "leaves": 16176,
+      "name": "broadleaf91-form1-lod0"
+    },
+    {
+      "seed": 911783,
+      "lod": 1,
+      "form": "upright",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1146,
+      "attractors": 1700,
+      "triangles": 96788,
+      "leaves": 8088,
+      "name": "broadleaf91-form1-lod1"
+    },
+    {
+      "seed": 911783,
+      "lod": 2,
+      "form": "upright",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1146,
+      "attractors": 1700,
+      "triangles": 36028,
+      "leaves": 2022,
+      "name": "broadleaf91-form1-lod2"
+    }
+  ],
+  "profiles": [
+    {
+      "variant": 0,
+      "bounds": [
+        10.484201908111572,
+        13.346865417435765,
+        9.708604335784912
+      ],
+      "extent": 14.681551959179343,
+      "sourceTriangles": 210632,
+      "visibleTriangles": 210632,
+      "seed": 531941
+    },
+    {
+      "variant": 1,
+      "bounds": [
+        7.379666328430176,
+        15.235307039692998,
+        6.602128267288208
+      ],
+      "extent": 16.758837743662298,
+      "sourceTriangles": 145316,
+      "visibleTriangles": 145316,
+      "seed": 911783
+    }
+  ],
+  "atlasViewsPerForm": 24,
+  "atlasSize": [
+    8192,
+    1536
+  ],
+  "frameSize": 512,
+  "textureInputs": "Retained CC0 Poly Haven Pine Tree01 bark, Rico Cilliers and Rob Tuytel; https://polyhaven.com/a/pine_tree_01",
+  "processing": "GLTF Transform dedup/prune only; no geometric simplification or texture resampling; retain six PBR LOD groups and polygon leaf alpha modes",
+  "rawModelBytes": 45498112,
+  "assets": [
+    {
+      "file": "grove91-bare-albedo.png",
+      "bytes": 4036491,
+      "sha256": "6a7729743874ae5408649da03be59c8ad6c0e9e0aac2eabf4bd1fa2452f39aab"
+    },
+    {
+      "file": "grove91-bare-normals.png",
+      "bytes": 7161305,
+      "sha256": "b42ae5db191275ca8ef2401bcca641eb8120c9ad724edd257400021e363d0393"
+    },
+    {
+      "file": "grove91-bare-opacity.png",
+      "bytes": 2189305,
+      "sha256": "26e54ce4d82a8046dab5b14a84ff063c73b17c6e035286d9de560db7be65318b"
+    },
+    {
+      "file": "grove91-summer-albedo.png",
+      "bytes": 8097160,
+      "sha256": "97505843afa6c2d580280cc6d0cd72d232aaf1641b5023a722bd09b0e0509bff"
+    },
+    {
+      "file": "grove91-summer-foliage.png",
+      "bytes": 2263875,
+      "sha256": "a716ee91ce1971479f5c9f916252fe5366d936e5984870a819d4fa948bebd947"
+    },
+    {
+      "file": "grove91-summer-normals.png",
+      "bytes": 9869265,
+      "sha256": "b215fd25885194a2c653bd1327364dd3699a174bfe55e9cf4ea4203335702641"
+    },
+    {
+      "file": "grove91-summer-opacity.png",
+      "bytes": 1506231,
+      "sha256": "c848b30452248ce7b4e6a6821401c42ed6e6e8ac5a422092f35e6fc288e3579c"
+    },
+    {
+      "file": "grove91.glb",
+      "bytes": 38394552,
+      "sha256": "ac0222b91c4d3b09809f5500be0175810183d889c49e25ff8382efc53d36c85c"
+    }
+  ]
+}

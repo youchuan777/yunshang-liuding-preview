@@ -1,0 +1,505 @@
+{
+  "schema": 109,
+  "geometry": "Original open spreading/upright growth studies; not a species identification or park scan",
+  "seeds": [
+    531941,
+    911783
+  ],
+  "widthFactors": [
+    1,
+    0.72
+  ],
+  "models": [
+    {
+      "seed": 531941,
+      "lod": 0,
+      "form": "spreading",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1340,
+      "attractors": 1700,
+      "triangles": 91564,
+      "leaves": 8496,
+      "profile": "open109",
+      "growthTargets": 1075,
+      "crownWindows": [
+        [
+          -0.7,
+          8.6,
+          0.6,
+          1.05,
+          1.6,
+          3.2
+        ],
+        [
+          1.7,
+          10.1,
+          -0.7,
+          1.15,
+          1.4,
+          2.7
+        ]
+      ],
+      "terminalShootsPerTip": 3,
+      "barkUV": "continuous path length; node collars aligned to incoming branch",
+      "name": "broadleaf109-form0-lod0"
+    },
+    {
+      "seed": 531941,
+      "lod": 1,
+      "form": "spreading",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1340,
+      "attractors": 1700,
+      "triangles": 66076,
+      "leaves": 4248,
+      "profile": "open109",
+      "growthTargets": 1075,
+      "crownWindows": [
+        [
+          -0.7,
+          8.6,
+          0.6,
+          1.05,
+          1.6,
+          3.2
+        ],
+        [
+          1.7,
+          10.1,
+          -0.7,
+          1.15,
+          1.4,
+          2.7
+        ]
+      ],
+      "terminalShootsPerTip": 3,
+      "barkUV": "continuous path length; node collars aligned to incoming branch",
+      "name": "broadleaf109-form0-lod1"
+    },
+    {
+      "seed": 531941,
+      "lod": 2,
+      "form": "spreading",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1340,
+      "attractors": 1700,
+      "triangles": 32812,
+      "leaves": 1062,
+      "profile": "open109",
+      "growthTargets": 1075,
+      "crownWindows": [
+        [
+          -0.7,
+          8.6,
+          0.6,
+          1.05,
+          1.6,
+          3.2
+        ],
+        [
+          1.7,
+          10.1,
+          -0.7,
+          1.15,
+          1.4,
+          2.7
+        ]
+      ],
+      "terminalShootsPerTip": 3,
+      "barkUV": "continuous path length; node collars aligned to incoming branch",
+      "name": "broadleaf109-form0-lod2"
+    },
+    {
+      "seed": 911783,
+      "lod": 0,
+      "form": "upright",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 915,
+      "attractors": 1700,
+      "triangles": 65484,
+      "leaves": 6072,
+      "profile": "open109",
+      "growthTargets": 1077,
+      "crownWindows": [
+        [
+          0.25,
+          9.7,
+          0,
+          0.8,
+          1.65,
+          2.4
+        ],
+        [
+          -0.7,
+          12,
+          0.8,
+          0.7,
+          1.2,
+          1.4
+        ]
+      ],
+      "terminalShootsPerTip": 3,
+      "barkUV": "continuous path length; node collars aligned to incoming branch",
+      "name": "broadleaf109-form1-lod0"
+    },
+    {
+      "seed": 911783,
+      "lod": 1,
+      "form": "upright",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 915,
+      "attractors": 1700,
+      "triangles": 47268,
+      "leaves": 3036,
+      "profile": "open109",
+      "growthTargets": 1077,
+      "crownWindows": [
+        [
+          0.25,
+          9.7,
+          0,
+          0.8,
+          1.65,
+          2.4
+        ],
+        [
+          -0.7,
+          12,
+          0.8,
+          0.7,
+          1.2,
+          1.4
+        ]
+      ],
+      "terminalShootsPerTip": 3,
+      "barkUV": "continuous path length; node collars aligned to incoming branch",
+      "name": "broadleaf109-form1-lod1"
+    },
+    {
+      "seed": 911783,
+      "lod": 2,
+      "form": "upright",
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 915,
+      "attractors": 1700,
+      "triangles": 23258,
+      "leaves": 759,
+      "profile": "open109",
+      "growthTargets": 1077,
+      "crownWindows": [
+        [
+          0.25,
+          9.7,
+          0,
+          0.8,
+          1.65,
+          2.4
+        ],
+        [
+          -0.7,
+          12,
+          0.8,
+          0.7,
+          1.2,
+          1.4
+        ]
+      ],
+      "terminalShootsPerTip": 3,
+      "barkUV": "continuous path length; node collars aligned to incoming branch",
+      "name": "broadleaf109-form1-lod2"
+    }
+  ],
+  "atlasSize": [
+    8192,
+    1536
+  ],
+  "azimuthViews": 8,
+  "elevationDegrees": [
+    0,
+    30,
+    60
+  ],
+  "assets": [
+    {
+      "file": "grove109-bare-albedo.png",
+      "bytes": 3617952,
+      "sha256": "d7f8ab5797fb1c9a5cf37f30aaf5c8608aae70b42f356da7abff3696e9eed602"
+    },
+    {
+      "file": "grove109-bare-normals.png",
+      "bytes": 5741696,
+      "sha256": "d8b74ea8a801ad9264c08fe4d2af6bc0d0bfe269474ba82df8a3804a2c288cba"
+    },
+    {
+      "file": "grove109-bare-opacity.png",
+      "bytes": 1832892,
+      "sha256": "9f6cf390b34e2b3d48262170d055bb7bb77db7323b72e97aeeb536c564365616"
+    },
+    {
+      "file": "grove109-summer-albedo.png",
+      "bytes": 7770663,
+      "sha256": "76a44b233158959f39d43b2ef3ca9b4d96e6add88d5d285a585bdb4bf7a4d972"
+    },
+    {
+      "file": "grove109-summer-foliage.png",
+      "bytes": 2417703,
+      "sha256": "e0bc470c63c3642b9c9af570dc92e2ab40ab634e1d61c18fe5f40403df7f2301"
+    },
+    {
+      "file": "grove109-summer-normals.png",
+      "bytes": 9188615,
+      "sha256": "f3e0811404024f3524ab62539991c0f17a1ff6ea5305b98f8752d5f0fe5ebe49"
+    },
+    {
+      "file": "grove109-summer-opacity.png",
+      "bytes": 1972302,
+      "sha256": "afd24e149df55674801734f7cc1e71f0a2fe98d9121bf1e44f8b6ae05031249c"
+    },
+    {
+      "file": "grove109.glb",
+      "bytes": 23634828,
+      "sha256": "9ca777385208a6720280eda2fa26d24d7265135c9ce164f48cc9a76f264bb7ab"
+    }
+  ],
+  "captures": {
+    "summer-albedo": {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            10.351402759552002,
+            13.349174827337265,
+            9.594392776489258
+          ],
+          "extent": 14.684092310070993,
+          "sourceTriangles": 91564,
+          "visibleTriangles": 91564,
+          "seed": 531941
+        },
+        {
+          "variant": 1,
+          "bounds": [
+            7.3172829151153564,
+            14.973604780156165,
+            6.542661905288696
+          ],
+          "extent": 16.470965258171784,
+          "sourceTriangles": 65484,
+          "visibleTriangles": 65484,
+          "seed": 911783
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "atlasSize": [
+        8192,
+        1536
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "albedo",
+      "species": "grove109",
+      "bare": false
+    },
+    "summer-normals": {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            10.351402759552002,
+            13.349174827337265,
+            9.594392776489258
+          ],
+          "extent": 14.684092310070993,
+          "sourceTriangles": 91564,
+          "visibleTriangles": 91564,
+          "seed": 531941
+        },
+        {
+          "variant": 1,
+          "bounds": [
+            7.3172829151153564,
+            14.973604780156165,
+            6.542661905288696
+          ],
+          "extent": 16.470965258171784,
+          "sourceTriangles": 65484,
+          "visibleTriangles": 65484,
+          "seed": 911783
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "atlasSize": [
+        8192,
+        1536
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "normals",
+      "species": "grove109",
+      "bare": false
+    },
+    "summer-foliage": {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            10.351402759552002,
+            13.349174827337265,
+            9.594392776489258
+          ],
+          "extent": 14.684092310070993,
+          "sourceTriangles": 91564,
+          "visibleTriangles": 91564,
+          "seed": 531941
+        },
+        {
+          "variant": 1,
+          "bounds": [
+            7.3172829151153564,
+            14.973604780156165,
+            6.542661905288696
+          ],
+          "extent": 16.470965258171784,
+          "sourceTriangles": 65484,
+          "visibleTriangles": 65484,
+          "seed": 911783
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "atlasSize": [
+        8192,
+        1536
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "foliage",
+      "species": "grove109",
+      "bare": false
+    },
+    "bare-albedo": {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            10.351402759552002,
+            13.349174827337265,
+            9.594392776489258
+          ],
+          "extent": 14.684092310070993,
+          "sourceTriangles": 91564,
+          "visibleTriangles": 40588,
+          "seed": 531941
+        },
+        {
+          "variant": 1,
+          "bounds": [
+            7.3172829151153564,
+            14.973604780156165,
+            6.542661905288696
+          ],
+          "extent": 16.470965258171784,
+          "sourceTriangles": 65484,
+          "visibleTriangles": 29052,
+          "seed": 911783
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "atlasSize": [
+        8192,
+        1536
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "albedo",
+      "species": "grove109",
+      "bare": true
+    },
+    "bare-normals": {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            10.351402759552002,
+            13.349174827337265,
+            9.594392776489258
+          ],
+          "extent": 14.684092310070993,
+          "sourceTriangles": 91564,
+          "visibleTriangles": 40588,
+          "seed": 531941
+        },
+        {
+          "variant": 1,
+          "bounds": [
+            7.3172829151153564,
+            14.973604780156165,
+            6.542661905288696
+          ],
+          "extent": 16.470965258171784,
+          "sourceTriangles": 65484,
+          "visibleTriangles": 29052,
+          "seed": 911783
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "atlasSize": [
+        8192,
+        1536
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "normals",
+      "species": "grove109",
+      "bare": true
+    }
+  },
+  "sources": [
+    {
+      "file": "src/broadleaf-study.js",
+      "sha256": "3593aea6126a5cb3ad3f02fe7417c279ebefe655d1d86acc9d0afb917efaf2be"
+    },
+    {
+      "file": "src/bake-forest.js",
+      "sha256": "5ed4147ae0a98c48b519500760a5dac9df040f996d2a2396eb9bcac747eb665d"
+    }
+  ],
+  "sourceBase": "forest91 retained separately",
+  "license": "Original geometry; retained CC0 Poly Haven Pine Tree01 bark",
+  "softwareBake": "Chromium ANGLE/SwiftShader; no performance claim"
+}

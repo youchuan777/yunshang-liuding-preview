@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "file": "fir-c68.glb",
+      "bytes": 14904624,
+      "sha256": "8bedc5532dca9750c908daa06e70294f9958236a9f833c01e85b600787427472",
+      "license": "CC0-1.0 (professional C) / original project geometry (dense0)",
+      "atlasSize": null
+    },
+    {
+      "file": "conifer68-albedo.png",
+      "bytes": 3962921,
+      "sha256": "12574a6f47366794b88a9630877f2e13e03c333b599ae4acdaedd7776745ea50",
+      "license": "CC0-1.0 (professional C) / original project geometry (dense0)",
+      "atlasSize": [
+        6144,
+        1152
+      ]
+    },
+    {
+      "file": "conifer68-normals.png",
+      "bytes": 4723901,
+      "sha256": "18d93eeae3c6ad7282a749155309f091038ad2bde6365e02a48f6bed94bb42e1",
+      "license": "CC0-1.0 (professional C) / original project geometry (dense0)",
+      "atlasSize": [
+        6144,
+        1152
+      ]
+    },
+    {
+      "file": "conifer68-opacity.png",
+      "bytes": 811761,
+      "sha256": "4228198431254677c51baacb8f9ae34fd7e1c2663b0dc563804591309462083f",
+      "license": "CC0-1.0 (professional C) / original project geometry (dense0)",
+      "atlasSize": [
+        6144,
+        1152
+      ]
+    },
+    {
+      "file": "conifer68-foliage.png",
+      "bytes": 921761,
+      "sha256": "8e4bfe39051aced304aac942862cdace131ce146c00bc99a00a8a88bf4a72b8f",
+      "license": "CC0-1.0 (professional C) / original project geometry (dense0)",
+      "atlasSize": [
+        6144,
+        1152
+      ]
+    }
+  ],
+  "totalBytes": 25324968,
+  "azimuths": 8,
+  "elevations": [
+    0,
+    30,
+    60
+  ],
+  "forms": [
+    "original dense conifer0",
+    "CC0 FirTree01 selectedC"
+  ],
+  "noFixedSunInAlbedo": true
+}

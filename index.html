@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#13241d" />
+  <title>云上六鼎 · 山湖全景</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <script type="module" crossorigin src="./assets/index-DmfvnQiB.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DK9Qk4N4.css">
+</head>
+<body>
+  <canvas id="world" tabindex="0" aria-label="六鼎山地形与景区全貌研究三维场景"></canvas>
+  <div id="loading"><div class="loading-line"></div><p>云上六鼎</p><small id="load-detail">正在构建山林与殿宇</small></div>
+  <div class="arrival-shade" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">六</span><span><b>云上六鼎</b><small>LIUDING · MOUNTAINS AND WATER</small></span></a>
+    <span class="edition">吉林 · 敦化<span class="divider"></span>一山多脉</span>
+    <button id="map-toggle" class="map-toggle" aria-expanded="false" aria-controls="site-navigation">景区导览 ↗</button>
+    <button id="climate-toggle" class="viewing-toggle" aria-expanded="false" aria-controls="climate-controls"><span class="wide-label">四时与光</span><span class="compact-label">四时</span></button>
+    <button id="sound-toggle" class="sound-toggle" aria-pressed="false">声景 · 关</button>
+    <button class="icon-button" id="info-button" title="查看场景说明" aria-label="查看场景说明">i</button>
+  </header>
+  <button id="craft-launch" class="craft-launch">廊下观构 · 前往体验 ↗</button>
+  <button id="journey-launch" class="journey-launch">行旅手记 · 从檐下到山湖 ↗</button>
+  <dialog id="journey-book" aria-labelledby="journey-book-title">
+    <header class="journey-heading"><div><small>吉林敦化 · 亲手做，也亲眼看</small><h2 id="journey-book-title">从檐下，到山湖。</h2></div><button id="journey-close">合上手记 · J</button></header>
+    <p class="journey-intro">组合一份木构，推开一道殿门，再到山巅辨认手势、观察莲座、回望山湖。山顶用第一人称拖动视角，将观察圆环靠近画面中心，按 E 留下记录。</p>
+    <div class="journey-path"><span>檐下观构</span><i></i><span>推门入殿</span><i></i><span>山巅四观</span><output id="journey-total">0 / 6 处观察</output></div>
+    <div class="journey-columns"><nav id="journey-entries" class="journey-entries" aria-label="行旅观察条目"></nav><section class="journey-detail" aria-live="polite"><h3 id="journey-detail-title">右手 · 无畏</h3><p id="journey-detail-text"></p><a id="journey-source" target="_blank" rel="noopener"></a><button id="journey-follow" hidden>在这里观察</button><p class="journey-study">当前造像是实景特征研究，脸、手、背面与比例继续核对。观察标记是数字辅助，不是实物上的标志。</p></section></div>
+    <p id="journey-summary" hidden>你已经完成山巅四处观察。从手势与莲座，再回到整片山水；可以继续步行、飞行或回院落完成另外两处体验。</p>
+    <div class="journey-travel"><button id="journey-ancestor">从码头步行至清祖前庭</button><button id="journey-ancestor-return">从清祖前庭沿岸返回码头</button><button id="journey-network">院落—湖岸—莲广—码头</button><button id="journey-network-return">沿山湖线返回院落</button><button id="journey-trail">从院落步行登临</button><button id="journey-lake">从院落走向湖岸</button><button id="journey-return">沿湖岸原路回院落</button><button id="journey-waterfront">从莲花广场步行至码头</button><button id="journey-waterfront-return">从码头步行返回莲花广场</button><button id="journey-temple">前往主殿院落</button><button id="journey-summit">前往后山起点</button><button id="journey-entry">前往六宝门起点</button><button id="journey-repeat">重走山巅四观</button></div>
+    <p class="journey-foot">院落、原湖岸步道、莲花广场与码头已连续接通。处于相应起点附近时接着当前位置走，其他位置会先定位到该路线起点；分段入口会重新定位人物。路线为数字场景设计，不作现场导航；阅读条目不会完成观察。</p><p id="journey-storage" class="journey-foot"></p>
+  </dialog>
+  <section id="journey-cue" class="journey-cue" hidden aria-label="当前山巅观察"><small id="journey-cue-count">山巅观察 · 0 / 4</small><b id="journey-cue-title">右手 · 无畏</b><p id="journey-cue-text"></p><em id="journey-direction"></em></section>
+  <div id="journey-marker" class="journey-marker" hidden aria-hidden="true"><span>右手</span></div>
+  <p id="journey-toast" class="journey-toast" role="status" hidden></p>
+  <section class="core-tour-hud" aria-label="步行游程引导"><header><span id="core-tour-title">院落步行登临</span><output id="core-tour-percent">0%</output></header><h2 id="core-tour-stage">廊前 · 走近木构</h2><p id="core-tour-direction">沿引路光点继续向前</p><small id="core-tour-distance">数字场景路线</small><div class="core-tour-track"><i id="core-tour-fill"></i></div></section>
+  <p id="core-tour-toast" class="core-tour-toast" role="status" hidden></p>
+  <section class="craft-panel" aria-label="廊下观构文化体验">
+    <span class="craft-eyebrow">吉林敦化 · 从院落走近构件</span><h2 id="craft-title">廊下观构</h2>
+    <p class="craft-context">正觉寺是现代重建的仿古建筑。亲手组合一份简化木构示意，再回到檐下，观察传统建筑语言如何呈现。</p>
+    <div id="craft-progress" class="craft-progress">组构 · 0 / 4</div>
+    <div id="craft-parts" class="craft-parts"><button data-craft-piece="dou">坐斗</button><button data-craft-piece="cross">横向栱</button><button data-craft-piece="forward">前后栱</button><button data-craft-piece="beam">上承枋</button></div>
+    <div id="craft-actions" class="craft-actions"><button id="craft-turn">转向 90°</button><button id="craft-place">安放构件</button></div>
+    <p id="craft-feedback" class="craft-feedback" aria-live="polite">选取坐斗，观察底部开口，再把它安放到虚线槽位。</p>
+    <label id="craft-explode-label" class="craft-explode" for="craft-explode">展开构件，看层次<input id="craft-explode" type="range" min="0" max="100" value="0" aria-label="展开构件" disabled></label>
+    <p id="craft-result" class="craft-result" hidden>这四组展示底座、交叉构件与上层承托的关系。带着观察回到主殿，看一攒层叠构件在柱头的位置。</p>
+    <button id="craft-reference" class="craft-reference" disabled>对照建筑近景</button><button id="craft-reset" class="craft-reset">重新组合</button><button id="craft-close" class="craft-close">回到游览</button>
+    <p class="craft-source">通用原理示意，不对应正觉寺实物的具体做法或结构材料。观察台是本项目数字体验装置。<br>依据：<a href="https://dfz.jl.gov.cn/ybjl/201801/t20180118_5217161.html" target="_blank" rel="noopener">吉林省地方志</a> · <a href="https://www.dpm.org.cn/architectural_art/246282.html" target="_blank" rel="noopener">故宫博物院构件说明</a></p>
+  </section>
+  <div class="craft-drag">拖动观察 · 滚轮靠近 · 单击模型选件 · Esc 返回暂停菜单</div>
+  <aside id="site-navigation" class="site-navigation" hidden aria-label="景区分区导览">
+    <label for="region-select">山湖之间 · 文化片区</label>
+    <select id="region-select"><option value="" disabled selected>选择一个片区</option></select>
+    <svg id="site-map" class="site-map" role="group" aria-label="六鼎山水体、道路与文化片区概览"></svg>
+    <div class="map-direction">北 ↑ · 淡色虚线点为估计位置</div>
+    <p id="region-note">选择湖岸、寺院、祖祠或文学空间，观察它们在整个景区中的关系。</p>
+    <small id="region-evidence">景区全貌研究版 · 细部持续核对</small>
+  </aside>
+  <main class="intro" id="intro">
+    <span class="eyebrow">吉林敦化 · 六鼎山</span>
+    <h1>一山多脉，<br>循光入境。</h1>
+    <p>从殿宇与山湖出发，<br>走近敦化的文化记忆。</p>
+    <div class="arrival-actions"><button id="play" class="primary"><span class="play-symbol">▷</span>山寺入境<span class="duration">42″</span></button><button id="arrival-walk" class="arrival-secondary">亲身游览 ↗</button></div><button id="arrival-explore" class="arrival-explore">自由看景 →</button>
+  </main>
+  <aside id="scene-settings" class="settings" data-context="false" aria-label="观赏与文化"><div id="climate-controls" class="climate-controls"><div class="climate-drawer-title"><span>四时与光</span><button id="climate-close" aria-label="收起四时与光">×</button></div>
+    <div class="settings-label">天地流转 <span id="environment-label">秋 · 晴</span></div>
+    <div class="clock-row"><output id="clock" for="time-axis">17:09</output><button id="time-play" aria-pressed="false" title="让时间自动流转">流转 ▷</button></div>
+    <input id="time-axis" class="time-axis" aria-label="一天中的时间" type="range" min="0" max="23.99" step="0.01" value="17.15" />
+    <div class="time-ticks"><span>00</span><span>06</span><span>12</span><span>18</span><span>24</span></div>
+    <div class="segmented light-shortcuts" id="light-controls">
+      <button data-light="day">晨光</button>
+      <button class="selected" data-light="morning">暮照</button>
+      <button data-light="sunset">夜境</button>
+    </div>
+    <div class="night-row"><span id="night-status">日间熄灯</span><button id="night-lighting" aria-pressed="true">景观照明 · 自动</button></div>
+    <button id="night-tour" class="night-tour">夜游巡礼 <span>40 秒 · 檐下至山巅</span></button>
+    <p class="night-note">数字夜景布光设计，随日落渐亮。灯位与亮灯时段为创作设定。</p><button id="culture-tour" class="night-tour">文化巡礼 <span>75 秒 · 一山多脉</span></button><p class="night-note">八章作者镜头，串起门序、山湖、建筑与文学；退出后恢复原视角与时刻。</p>
+    <div class="field-row"><label for="time-speed">流转速度</label><select id="time-speed"><option value="0.03">慢 · 13 分钟一天</option><option value="0.09" selected>中 · 4 分钟一天</option><option value="0.24">快 · 100 秒一天</option></select></div>
+    <div class="settings-section"><span class="field-label">四季</span><div class="choice-row seasons" aria-label="季节"><button data-season="spring">春</button><button data-season="summer">夏</button><button data-season="autumn" class="selected">秋</button><button data-season="winter">冬</button></div></div>
+    <label class="range-row" for="season-axis"><span id="season-phase-label">秋</span><input id="season-axis" type="range" min="0" max="4" step="0.01" value="2" list="season-stops" aria-label="四时流转" aria-valuetext="秋" /></label><datalist id="season-stops"><option value="0" label="春"></option><option value="1" label="夏"></option><option value="2" label="秋"></option><option value="3" label="冬"></option><option value="4" label="春"></option></datalist>
+    <div class="field-row season-flow-row"><span>同景四时</span><button id="season-play" class="season-play" aria-pressed="false" title="按当前机位与时刻，连续巡看四时">巡看四时 ▷</button></div>
+    <div class="settings-section"><span class="field-label">天气</span><div class="choice-row weather" aria-label="天气"><button data-weather="clear" class="selected">晴</button><button data-weather="cloudy">阴</button><button data-weather="mist">薄雾</button><button data-weather="fog">浓雾</button><button data-weather="rain">雨</button><button data-weather="snow">雪</button></div></div>
+    <label class="range-row" for="weather-intensity"><span>天气强度</span><input id="weather-intensity" type="range" min="0.1" max="1" step="0.05" value="0.7" /></label>
+    <label class="range-row" for="wind"><span>山风</span><input id="wind" type="range" min="0" max="1" step="0.01" value="0.38" /><output id="wind-value">轻风</output></label>
+    <label class="range-row" for="wind-direction"><span>风向</span><input id="wind-direction" type="range" min="0" max="359" step="1" value="225" /><output id="wind-direction-value">西南</output></label>
+    <div class="quality-row"><label for="quality">画质</label><select id="quality"><option value="balanced">均衡</option><option value="high">精细 · 柔和冬枝</option><option value="low">轻量</option></select></div>
+    </div><details class="hall-preview" hidden><summary>主殿 · 彩绘与石雕</summary><p>仰看梁枋与彩绘，再走近石柱和隔扇。<br>可实际步行入殿，观察梁柱、石铺与光线。<br>彩绘和石雕为外观研究，真实纹样与内饰仍待核对。</p><div class="door-actions"><button id="approach-paint">近看彩绘</button><button id="approach-stone">近看白石柱</button><button id="approach-door">走近殿门</button><button id="toggle-door" aria-pressed="false">推开殿门</button><button id="enter-hall" disabled>入殿观察</button></div></details>
+    <section id="summit-context" class="summit-context" hidden><h3>后山观像</h3><p>右手悬举，左手托展。公开介绍分别称为“无畏印”与“与愿印”，寄托护佑与愿景。</p><p>含莲座的公开高度为48米。可沿白石阶梯登临，或进入人物游览环看造像与山湖。</p><small>造像外观研究，细部与背面仍待核对。<a href="https://www.jl.gov.cn/szfzt/wnfbdejlmjlslstsydz/lmjlzzp_wnfb_122884/201709/t20170919_4486357.html" target="_blank" rel="noopener">资料依据 ↗</a></small></section>
+    <section id="museum-context" class="summit-context" hidden><h3>石台承山</h3><p>从折角白石立面、层层挑檐，走到外圈步道，再沿阶梯登上观像台。</p><small>台座尺度与通路为实拍参考研究。馆内展陈、入口和雕刻故事仍待核对。<a href="https://www.xinhuanet.com/travel/20210817/9cfa000d519d43adaad2a79a9dee9fcb/c.html" target="_blank" rel="noopener">文化背景 ↗</a></small></section>
+    <section id="shore-context" class="summit-context" hidden><h3>循岸入画</h3><p>沿木步道走到水边，从近处水面、岸上树林，再望向寺院与山巅。可进入人物游览，或在行旅手记选择往返步行。</p><small>步道走线、缓阶与平台为体验设计，尚待实景核对。<a href="https://www.jl.gov.cn/szfzt/gzlfz/gzdt/202308/t20230811_2499024.html" target="_blank" rel="noopener">湖岸资料 ↗</a></small></section>
+    <section id="lotus-context" class="summit-context" hidden><h3>莲花水岸</h3><p>走进广场，按 E 观看湖上水韵；按 J 可从院落沿湖岸走到这里，再继续去码头。</p><div class="water-actions"><button id="water-show" aria-pressed="false">湖上水韵 · 45″</button><button id="water-stop" hidden>收起水韵</button></div><small id="water-note">取莲花游园与湖畔水秀为线索 · 四章原创数字演绎</small><small>主殿院落与两处湖岸节点已接通。道路走线参考公开地图，铺面、接口与坡度为数字研究。<a href="https://jl.cnr.cn/jrjdjp/20240805/t20240805_526833787.shtml" target="_blank" rel="noopener">莲花游园资料 ↗</a></small></section>
+    <section id="pond-context" class="summit-context" hidden><h3>叶上听风</h3><p>从卷起的新叶、粉色花苞到莲蓬与枯茎，在水面留白之间观察荷塘。改变季节与风力，看叶面和花量一起变化。</p><small>依据圣莲池报道创作，原地图池塘上的种植、尺度与季相为数字研究。<a href="https://jl.cnr.cn/jrjdjp/20240805/t20240805_526833787.shtml" target="_blank" rel="noopener">莲花游园资料 ↗</a></small></section>
+    <section id="eaves-context" class="summit-context" hidden><h3>檐下听雨</h3><p>站在外廊，看白石柱与隔扇沿檐下展开，庭院与屋面留在檐外。切换晴雨，观察光线、雨线和廊下空间的变化。</p><div class="door-actions"><button data-weather="rain">看一场雨</button><button data-weather="clear">回到晴天</button></div><div class="door-actions"><button data-eaves-study="stone">近看白石</button><button data-eaves-study="paint">仰看檐彩</button></div><button id="eaves-walk" class="outline">从廊下出发 ↗</button><small>沿中央台阶走向庭院，可按 V 切换人物视角。开启声景，可听风雨与院落环境。建筑细部与天气仍为数字研究。</small></section>
+    <section id="heritage-context" class="summit-context" hidden><h3>渤海文化 · 史料照读</h3><p>从六顶山古墓群的地名、人物与保护记录读起。亲手移动侧光，观察数字刻板上的笔画，再对照文献线索。</p><button id="heritage-open" class="outline">开始照读 · 数字观察</button><small>原创教学刻板，并非文物原件、拓本或古墓复原。<a href="https://dfz.jl.gov.cn/ybjl/201106/t20110607_5217088.html" target="_blank" rel="noopener">地方志资料 ↗</a></small></section>
+    <section id="flowers-context" class="summit-context" hidden><h3>曲畦随风</h3><p>沿草间留白走进花海，观察曲线花畦、原有水域与山林。切换春夏秋冬，看花量、草色与风摆共同变化。</p><small>花型、花畦和季相为数字研究，未复刻实际种植图或预测花期。<a href="https://whhlyt.jl.gov.cn/dfwhxx/201910/t20191011_6109740.html" target="_blank" rel="noopener">省文旅厅花海资料 ↗</a></small></section>
+    <section id="jade-context" class="summit-context" hidden><h3>重檐承塔</h3><p>走过前庭石柱，沿两侧石阶登上外台，仰看白石外廊、层叠屋檐与白金色塔身。</p><p>外观参考标注玉佛苑的实景图；尺寸、细部与前庭配置仍为研究估计，内部展陈及雕像尚未复原。</p><small><a href="https://www.xinhuanet.com/travel/20210817/9cfa000d519d43adaad2a79a9dee9fcb/c.html" target="_blank" rel="noopener">新华网实景资料 ↗</a></small></section>
+    <section id="literature-context" class="summit-context" hidden><h3>文馆新章</h3><p>走上中央台阶，进入原创数字前厅。走近翻页台按 E，读文学、影视与此地的三条线索，再亲手推近、拉远纸景。</p><p>馆舍外形参考白色竖向立面与灰蓝屋面。数字前厅、翻页台及纸景为本项目原创体验设计，未复刻真实馆内陈设或电影画面。</p><small>采用独立人物起点，位置仍为导览估计。<a href="https://whhlyt.jl.gov.cn/dfwhxx/201907/t20190709_5996034.html" target="_blank" rel="noopener">省文旅厅资料 ↗</a></small></section>
+    <section id="outer-context" class="summit-context" hidden><h3>海东展翼</h3><p>远看六片弧墙连成展翼，走近再看龙龟承柱、莲瓣与顶部石灯。可以从中央通道走过，再转身观察三重门的前后层次。</p><p>六鼎门位于六宝门更外侧；寺院的正觉寺山门又是另一处。三处分别定位。</p><small>省地方志记载其三重门、六扇门结构及88米跨度、19.5米高度。此处按照片建立轮廓与构件研究，局部雕刻原创；独立人物起点尚未与六宝门接通。<a href="https://dfz.jl.gov.cn/ybjl/201811/t20181108_5447141.html" target="_blank" rel="noopener">地方志资料 ↗</a></small></section>
+    <section id="entry-context" class="summit-context" hidden><h3>六宝迎宾</h3><p>先远看三对石柱的高低与前后，再从中间走过，回望入口的门序。</p><p>六宝门是景区入口门区；六鼎门／海东之鹰位于更外侧，正觉寺山门则属于寺院。三处在导览中分别定位。</p><small>入口采用独立人物起点，尚未接通至寺院的整段步行线。石柱纹饰与顶饰为原创外观研究。<a href="https://www.thepaper.cn/newsDetail_forward_8025618" target="_blank" rel="noopener">景区图片依据 ↗</a></small></section>
+  </aside>
+  <section id="water-cue" class="water-cue" aria-label="湖上水韵" hidden><header><b id="water-chapter">风起 · 水面初动</b><span id="water-clock">00 / 45″</span></header><p id="water-line">从湖面的起伏，看见水形与风的节奏。</p><div class="water-meter"><i id="water-fill"></i></div></section>
+  <footer class="bottom-bar">
+    <div class="shot-caption"><span id="shot-index">01 / 06</span><div><b id="shot-name">山门 · 檐下见山</b><small id="shot-description">重檐与彩绘之间，望向后山轴线</small></div></div>
+    <nav class="shot-tabs" aria-label="摄影机视角">
+      <button class="active" data-shot="gate"><span>01</span>全貌</button>
+      <button data-shot="hall"><span>02</span>殿宇</button>
+      <button data-shot="aerial"><span>03</span>湖岸</button>
+      <button data-shot="axis"><span>04</span>清祖</button>
+      <button id="summit-shot" data-shot="summit" hidden><span>05</span>后山</button>
+      <button id="museum-shot" data-shot="museum"><span>06</span>台座</button><button data-shot="shore"><span>07</span>栈道</button><button data-shot="entry"><span>08</span>入口</button><button data-shot="lotus"><span>09</span>莲广</button><button data-shot="outer"><span>10</span>六鼎</button><button data-shot="literature"><span>11</span>文馆</button><button data-shot="jade"><span>12</span>玉佛</button><button data-shot="flowers"><span>13</span>花海</button><button data-shot="pond"><span>14</span>荷塘</button><button data-shot="eaves"><span>15</span>檐下</button><button id="ascent-shot" data-shot="ascent" hidden><span>16</span>循阶</button>
+    </nav>
+    <div class="bottom-actions"><button id="walk-start" class="outline">人物游览 ↗</button><button id="film-toggle" class="outline">电影观赏 ▷</button><button id="free" class="outline">自由观察 ↗</button></div>
+  </footer>
+  <div class="walk-reticle" aria-hidden="true"></div>
+  <section class="walk-hud" aria-label="步行游览控制">
+    <div><span id="walk-flight" class="walk-flight">地面</span><b id="walk-place" class="walk-place">正觉寺 · 院落与主殿</b><span id="walk-hint" class="walk-hint">WASD 移动 · 空格跳跃 / 双击飞行 · V 切换视角</span></div>
+    <div class="walk-controls"><button id="journey-toggle">行旅手记 · J</button><button id="walk-view">第一人称 · V</button><button id="walk-reset">回到起点 · R</button><button id="walk-menu">暂停菜单 · Esc</button></div>
+  </section>
+  <section class="walk-pause" aria-label="步行暂停菜单">
+    <h2>停步，望一望。</h2><p>WASD 行走 · Shift 快走<br>E 推开殿门 · V 切换视角</p>
+    <label for="walk-route">步行路线</label><select id="walk-route"><option value="temple">正觉寺 · 院落与主殿</option><option value="qing">清祖祠 · 白石台地</option><option id="summit-route" value="summit" hidden>后山 · 金鼎观像</option><option value="terrace">山顶 · 环台步道</option><option value="lake">圣莲湖 · 临水木步道</option><option value="entry">六宝门 · 入口门序</option><option value="lotus">莲花广场 · 临水石铺</option><option value="dock">莲花码头 · 独立泊位</option><option value="outer">六鼎门 · 海东展翼</option><option value="literature">张笑天文学馆 · 数字前厅</option><option value="flowers">吉祥花海 · 数字季相</option><option value="jade">玉佛苑 · 前庭与分流石阶</option><option value="qingfront">清祖祠 · 前庭接路</option><option value="eaves">正觉寺 · 廊下与前庭</option></select>
+    <button id="walk-resume">继续步行</button><div class="walk-menu-actions"><button id="walk-climate">天气与时间</button><button id="walk-exit">返回观赏</button></div>
+  </section>
+  <div class="view-help" id="view-help">拖动旋转 · 滚轮缩放 · 右键平移</div>
+  <div class="capture-hint" id="capture-hint">H 隐藏界面 · Esc 停止运镜</div>
+  <div class="asset-status" id="asset-status">全貌研究版 · 部分位置与建筑细节仍待核对 · 金鼎大佛尚待复原</div>
+  <div class="site-credits">地图 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors · ODbL</a> ｜ 高程 Mapzen / USGS</div>
+  <div class="film-progress"><div id="film-progress-fill"></div></div>
+  <div class="film-fade" id="film-fade" aria-hidden="true"></div>
+  <section class="film-caption" aria-label="巡礼章节">
+    <small id="film-chapter">六鼎山 · 数字景观研究</small><h2 id="film-title">湖光入画</h2><p id="film-description">沿湖光，走向暮色。</p>
+  </section>
+  <section class="film-controls" aria-label="巡礼控制">
+    <button id="film-pause">暂停镜头 Ⅱ</button>
+    <input id="film-seek" type="range" min="0" max="60" step="0.1" value="0" aria-label="巡礼进度">
+    <time id="film-time">0:00 / 1:00</time><button id="film-exit">返回观赏 · Esc</button>
+  </section>
+  <dialog id="info-dialog">
+    <button class="close-button" id="info-close" aria-label="关闭说明">×</button>
+    <span class="eyebrow">关于山湖全景</span><h2>沿真实山水，<br>展开文化空间。</h2>
+    <p>本版将范围从正觉寺轴线扩展至六鼎山周边山地与文化片区。区域高程、湖岸、河道和道路依据公开地理数据，建筑外形参考景区照片与官方导览图。</p>
+    <p>正觉寺、清祖祠、佛教文化艺术馆等位置具有公开地图依据。部分其他片区的位置仍由示意导览图估计；建筑数量、尺寸、立面与种植细节持续核对。本版不是测绘级数字孪生，也不把规划导览图中的全部内容当作已建成设施。</p>
+    <p>金鼎造像参考实拍调整佛身、双手与独立四层莲座，形成可环看的形体研究；面部、背面与实物纹样仍待核对。渤海古墓群先保留区域位置，不虚构墓葬数量和分布。主殿内部目前展示梁架与门扇结构，真实文化陈设仍待核对。</p>
+    <p>大雄宝殿前的八根汉白玉盘龙柱见于<a href="https://dfz.jl.gov.cn/ybjl/201801/t20180118_5217161.html" target="_blank" rel="noopener">吉林省地方志记述</a>。本版依据公开实拍深化柱身与柱础，具体龙形、云纹和尺寸为原创外观研究，尚非实测雕刻复原。</p>
+    <p>主殿彩绘参考实拍中青蓝分格、细线包边与上下层的关系。卷草和团花由代码原创，不对应实物龙凤图案或具体彩画等级；上层外观仍为参考照片的估计。</p>
+    <p>时间可在一天中连续流转，季节影响日照、植被与圣莲湖的水面季相，冬季湖面呈现霜纹和积雪。雨雪联动云量、风、地面湿润和覆雪。它们是艺术化气候模拟，并非景区实时天气、实际冰况或精确天文数据；湖面不提供冰上游览。</p>
+    <p>人物游览支持第一、第三人称；双击空格切换飞行，空格上升、Ctrl 下降、Shift 加速，再双击空格落地。正觉寺、清祖祠与后山观像台有核心步行路线，其他区域可飞行观察；周边地面和其他建筑内部的完整通行仍待完善。游客采用授权骨骼角色，支持行走、快走与停步；形象仍为通用风格化表现。</p>
+    <a href="https://polyhaven.com/license" target="_blank" rel="noopener">查看 Poly Haven 资产许可 ↗</a>
+  </dialog>
+  <div id="error" hidden></div>
+</body>
+</html>

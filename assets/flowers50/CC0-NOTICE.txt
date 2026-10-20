@@ -1,0 +1,8 @@
+Flower Gazania
+Modeling: James Ray Cock
+Photography: Jenelle van Heerden
+Source: https://polyhaven.com/a/flower_gazania
+License: CC0-1.0
+License information: https://polyhaven.com/license
+Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+This runtime file is a library of eight independent, centered variants. Source texture bytes are retained.

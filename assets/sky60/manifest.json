@@ -1,0 +1,23 @@
+{
+ "asset": "kloppenheim_06_puresky",
+ "file": "kloppenheim-06-sky-4k.hdr",
+ "bytes": 17995487,
+ "md5": "b5e006c3f8f49245641faff73264cc9a",
+ "sha256": "546053d52e3b00848964ca8e1d33410104a464e8bfefb53cdf7bbd6161007af4",
+ "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/8k/kloppenheim_06_puresky_8k.hdr",
+ "sourcePage": "https://polyhaven.com/a/kloppenheim_06_puresky",
+ "authors": [
+  "Greg Zaal",
+  "Jarod Guest"
+ ],
+ "license": "CC0-1.0",
+ "license_url": "https://polyhaven.com/license",
+ "siteCapture": false,
+ "processing": "4k area-averaged downsample of the official 8k HDR (float32 preserved, 2x2 box average); artistic sky plate rather than local weather evidence",
+ "derivedFrom": {
+  "file": "kloppenheim-06-sky-8k.hdr",
+  "bytes": 66959416,
+  "sha256": "6a224eb99e2dd61c26179f6f18fdfb7724a7c2d0d9ddd86c0f483630f93f6938",
+  "note": "original 8k retained in D:/CodexProjects/yunshang-liuding/recovery/sky60-8k/"
+ }
+}

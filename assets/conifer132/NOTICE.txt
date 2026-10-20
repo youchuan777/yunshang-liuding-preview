@@ -1,0 +1,9 @@
+Conifer132: original deterministic open-layer evergreen study; generic form, not a local botanical survey.
+Dense geometry: src/pine-study.js open132; previous legacy profile retained.
+Dense bark/twig textures: Pine Tree01 / Rico Cilliers and Rob Tuytel / Poly Haven / CC0.
+https://polyhaven.com/a/pine_tree_01
+Sparse half and source mesh retained from ../fir68: Fir Tree01 variant C / Rob Tuytel and Rico Cilliers / CC0.
+https://polyhaven.com/a/fir_tree_01
+https://polyhaven.com/license
+Full fir68 source provenance and partial-source qualification remain in ../fir68/NOTICE.txt and source-manifest.json.
+Four6144x1152 matched atlases; right half decoded RGB identical to retained conifer68 maps.

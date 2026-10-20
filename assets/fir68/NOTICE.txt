@@ -1,0 +1,5 @@
+Fir Tree 01 variant C — Rob Tuytel (photography), Rico Cilliers (modeling) / Poly Haven
+CC0 1.0 https://polyhaven.com/license
+https://polyhaven.com/a/fir_tree_01
+Derived selected mesh, matched runtime/bake material study; not a local botanical survey.
+Source bin was an exact verified HTTP206 range, NOT a full source download or full provider MD5 verification. See source-manifest.json.

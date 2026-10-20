@@ -1,0 +1,65 @@
+{
+  "captures": [
+    {
+      "bounds": [
+        4.755149602890015,
+        5.02744660153985,
+        4.8176796436309814
+      ],
+      "extent": 5.530191261693836,
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "sourceTriangles": 1599403,
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "albedo"
+    },
+    {
+      "bounds": [
+        4.755149602890015,
+        5.02744660153985,
+        4.8176796436309814
+      ],
+      "extent": 5.530191261693836,
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "sourceTriangles": 1599403,
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "normals"
+    },
+    {
+      "bounds": [
+        4.755149602890015,
+        5.02744660153985,
+        4.8176796436309814
+      ],
+      "extent": 5.530191261693836,
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "sourceTriangles": 1599403,
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "foliage",
+      "species": "broadleaf"
+    }
+  ],
+  "license": "CC0-1.0",
+  "processing": "Original geometry, unlit albedo and view-space normals; three elevation rows; RGB dilation and separate opacity",
+  "sourcePage": "https://polyhaven.com/a/island_tree_01"
+}

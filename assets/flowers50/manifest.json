@@ -1,0 +1,156 @@
+{
+  "version": "0.50.0",
+  "date": "2026-10-16",
+  "asset": "flower_gazania",
+  "source": "https://polyhaven.com/a/flower_gazania",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "authors": {
+    "James Ray Cock": "modeling",
+    "Jenelle van Heerden": "photography"
+  },
+  "file": "gazania-variants.glb",
+  "bytes": 2647716,
+  "sha256": "c22e76826289eaa3dec648854775ccc440f0fd6de993d4206de2fd3723fc25f9",
+  "variants": [
+    {
+      "name": "flower_gazania_a_LOD0",
+      "triangles": 416,
+      "size": [
+        0.13823050260543823,
+        0.044549165836457405,
+        0.1333380490541458
+      ]
+    },
+    {
+      "name": "flower_gazania_b_LOD0",
+      "triangles": 448,
+      "size": [
+        0.21493655443191528,
+        0.048002645547967404,
+        0.268360860645771
+      ]
+    },
+    {
+      "name": "flower_gazania_c_LOD0",
+      "triangles": 752,
+      "size": [
+        0.24085789918899536,
+        0.06852154919761233,
+        0.18604768812656403
+      ]
+    },
+    {
+      "name": "flower_gazania_d_LOD0",
+      "triangles": 1348,
+      "size": [
+        0.24570035934448242,
+        0.09977825521491468,
+        0.2663755640387535
+      ]
+    },
+    {
+      "name": "flower_gazania_h_LOD0",
+      "triangles": 3540,
+      "size": [
+        0.3375672399997711,
+        0.16554075153544545,
+        0.3262104354798794
+      ]
+    },
+    {
+      "name": "flower_gazania_g_LOD0",
+      "triangles": 3004,
+      "size": [
+        0.2693648114800453,
+        0.12441434850916266,
+        0.2883916310966015
+      ]
+    },
+    {
+      "name": "flower_gazania_f_LOD0",
+      "triangles": 2728,
+      "size": [
+        0.31232384219765663,
+        0.10992088727653027,
+        0.3069431707262993
+      ]
+    },
+    {
+      "name": "flower_gazania_e_LOD0",
+      "triangles": 2104,
+      "size": [
+        0.24085775017738342,
+        0.10743651911616325,
+        0.18604765087366104
+      ]
+    }
+  ],
+  "triangles": 14340,
+  "images": [
+    {
+      "sha256": "802d0f9234ccd778c537b3b5ea3714f219d73a80ab794ea77271ab47dbbc9789",
+      "bytes": 874324,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "9d3022ebe7bfe0493a3e46aad87ea4746ea51df8c8b3e19294f1bb718a3147bb",
+      "bytes": 435784,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "80800dca73ad66b8c51b089db771b7a15c9e57dfd959e0da5cde434b3d8151b4",
+      "bytes": 670914,
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "flower_gazania_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/flower_gazania/flower_gazania_1k.gltf",
+      "bytes": 19686,
+      "md5": "78053547581103a0630049ab073e93bd",
+      "sha256": "73c7f4094f2ad78ddfbe6373f8372ddb736a5d9fc6485db08ae32301edc95a24",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license"
+    },
+    {
+      "file": "flower_gazania.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_gazania/flower_gazania.bin",
+      "bytes": 848136,
+      "md5": "2ce0f3360d107e2567f8ff47d8fe0d1d",
+      "sha256": "a3864c51fce2dacb01629a0c364730e5988ac5a7a937acc0e2635c946d786797",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license"
+    },
+    {
+      "file": "textures/flower_gazania_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_nor_gl_1k.jpg",
+      "bytes": 874324,
+      "md5": "072dc75b84857662454cdcac932e4732",
+      "sha256": "802d0f9234ccd778c537b3b5ea3714f219d73a80ab794ea77271ab47dbbc9789",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license"
+    },
+    {
+      "file": "textures/flower_gazania_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_diff_1k.jpg",
+      "bytes": 435784,
+      "md5": "617b04076469b00d231225d565f520f4",
+      "sha256": "9d3022ebe7bfe0493a3e46aad87ea4746ea51df8c8b3e19294f1bb718a3147bb",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license"
+    },
+    {
+      "file": "textures/flower_gazania_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_arm_1k.jpg",
+      "bytes": 670914,
+      "md5": "7ccebc1c751aa6a012867583e5380f0c",
+      "sha256": "80800dca73ad66b8c51b089db771b7a15c9e57dfd959e0da5cde434b3d8151b4",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license"
+    }
+  ],
+  "processing": "bake source node rotations/scales; remove staging offsets; center each independent variant at its own ground contact; preserve mesh detail, UVs and embedded 1K texture bytes",
+  "interpretation": "generic Gazania appearance asset originally from South Africa; not a local species inventory or a surveyed scenic-area flower"
+}

@@ -1,0 +1,51 @@
+{
+  "version": "0.13.0",
+  "date": "2026-10-14",
+  "geometry": "src/pine-study.js",
+  "coniferTrianglesByForm": [
+    23520,
+    21920
+  ],
+  "assets": [
+    {
+      "file": "pine-canopy13-albedo.png",
+      "bytes": 5651103,
+      "sha256": "abb7b29ef8f4019c53e7fa2c79add543bbfedfec18ea30b0c1b4fe0f9d5107b4",
+      "source": "https://polyhaven.com/a/pine_tree_01",
+      "license": "CC0-1.0 textures / original procedural geometry",
+      "processing": "Two original forms, 48 rendered views, RGB normals and separate masks"
+    },
+    {
+      "file": "pine-canopy13-normals.png",
+      "bytes": 6672630,
+      "sha256": "1e4d8d8a8db159ab1246de0775ccd36e180bc452e4b610c4c2d64ee16847df9a",
+      "source": "https://polyhaven.com/a/pine_tree_01",
+      "license": "CC0-1.0 textures / original procedural geometry",
+      "processing": "Two original forms, 48 rendered views, RGB normals and separate masks"
+    },
+    {
+      "file": "pine-canopy13-opacity.png",
+      "bytes": 827287,
+      "sha256": "8538e36cee6f9666acabc5d0554a1f6cb7a0a11276dd5609287bdb558040d53c",
+      "source": "https://polyhaven.com/a/pine_tree_01",
+      "license": "CC0-1.0 textures / original procedural geometry",
+      "processing": "Two original forms, 48 rendered views, RGB normals and separate masks"
+    },
+    {
+      "file": "pine-canopy13-foliage.png",
+      "bytes": 1082606,
+      "sha256": "571d70cae954df997268f3a24cd5f1072bdaeab7ee1a75c03ac9bc677c3369c9",
+      "source": "https://polyhaven.com/a/pine_tree_01",
+      "license": "CC0-1.0 textures / original procedural geometry",
+      "processing": "Two original forms, 48 rendered views, RGB normals and separate masks"
+    },
+    {
+      "file": "pine-canopy13-bake-manifest.json",
+      "bytes": 3504,
+      "sha256": "0763f9726716bbe812f3788819f39d416b9fcb0c263fcf4103ed7ca04adb5452",
+      "source": "https://polyhaven.com/a/pine_tree_01",
+      "license": "CC0-1.0 textures / original procedural geometry",
+      "processing": "Two original forms, 48 rendered views, RGB normals and separate masks"
+    }
+  ]
+}

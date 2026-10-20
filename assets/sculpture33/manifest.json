@@ -1,0 +1,92 @@
+{
+  "version": "0.33.0",
+  "date": "2026-10-15",
+  "file": "jinding-body33.glb",
+  "bytes": 20308008,
+  "sha256": "0bba33ec8a6b4b996b6dab3e32cdf47fbe8bc732bc4d3bf511e57a40e34368f9",
+  "sourceFile": "jinding-body-original33.glb",
+  "sourceBytes": 25222140,
+  "sourceSHA256": "cdb252c1b9e8ebe33bdd77324b17cad59e0da00f10eb7edfd426f0946b47819e",
+  "referenceFile": "body-reference-v2.png",
+  "referenceSHA256": "e819ac9964eec7c63f69255ce1221e614fc67fdd4c58476a46c242b5d57d07f5",
+  "eventId": "57e3ef17be8e4e46894cf7bf5c6152ac",
+  "parameters": {
+    "steps": 30,
+    "guidance": 5,
+    "seed": 20261015,
+    "octree": 512,
+    "removeBackground": false,
+    "chunks": 8000,
+    "randomizeSeed": false
+  },
+  "triangles": 781014,
+  "parts": [
+    {
+      "before": 1401164,
+      "cleaned": 1401164,
+      "removedTinyTriangles": 0,
+      "componentCount": 1,
+      "largestComponents": [
+        1401164
+      ],
+      "after": 781014,
+      "vertices": 390507,
+      "settings": {
+        "ratio": 0.5352692475684502,
+        "error": 0.0004,
+        "lockBorder": false
+      },
+      "min": [
+        -0.7935506105422974,
+        -0.9991011023521423,
+        -0.5444654226303101
+      ],
+      "max": [
+        0.791731595993042,
+        0.9277423620223999,
+        0.5257483720779419
+      ],
+      "taubin": {
+        "cycles": 2,
+        "lambda": 0.24,
+        "mu": -0.25,
+        "maxDisplacement": 0.00425697511049551,
+        "displacementAtHeight38_4": 0.08483711690409143
+      },
+      "authoredDetails": {
+        "eyeVertices": 2157,
+        "eyeRefinementLevels": 2,
+        "eyeAddedVertices": 15507,
+        "eyeIncisionMetres": 0.045,
+        "eyeTintReduction": 0.25,
+        "crownVertices": 36203,
+        "crownCompressionAboveMetres": 32,
+        "crownVerticalFactor": 0.8,
+        "measuredAnatomy": false
+      },
+      "normalFilter": {
+        "cycles": 2,
+        "minimumNeighbourDot": 0.766,
+        "geometryUnchanged": true
+      },
+      "repairedNormals": 0,
+      "bodyAtUniformHeight38_4": [
+        31.59303693137166,
+        38.4,
+        21.32825550005786
+      ]
+    }
+  ],
+  "generatedStudy": true,
+  "surveyedReplica": false,
+  "production": "Two private site-photo references -> built-in imagegen isolated pale-clay body and non-destructive reframe -> ONE successful official Hunyuan3D2.1 public shape task -> Meshopt .0004, conservative Taubin smoothing, authored locally-refined eyelid incisions/crown correction and crease-aware shading normals. Procedural lotus is separate.",
+  "unusedAttempts": "Additional Hunyuan PBR endpoint returned an error without a textured file. A later Microsoft TRELLIS.2 attempt was stopped before model generation by its anonymous GPU quota. Neither is represented as a successfully used texture/model in this asset.",
+  "licenseNotes": "Not CC0. Preserve Tencent Hunyuan2.1 terms and photograph attribution; generated interpretation, not an authorized site scan. Reference photographs and originals remain private in D:work.",
+  "references": [
+    {
+      "url": "https://gs.ctrip.com/html5/you/travels/1388/4037951.html",
+      "author": "山水不系舟",
+      "use": "private visual research; photographs not runtime textures or distributed originals"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "source": {
+    "source": "https://polyhaven.com/a/fir_tree_01",
+    "authors": {
+      "Rob Tuytel": "photography",
+      "Rico Cilliers": "modeling"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "gltf_provider_md5": "0a184431efdba9e4bf76900d8d56504d",
+    "partialBin": {
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/fir_tree_01/fir_tree_01.bin",
+      "range": [
+        445212268,
+        478462203
+      ],
+      "bytes": 33249936,
+      "sha256": "9c21b774c1f6470d393e420c40282bfdc210533224ca1a4b8a4d0b67d7874561",
+      "response": {
+        "Content-Range": "bytes 445212268-478462203/478462204",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "verification": "Exact206 content-range and length; SHA256 of extracted range only. Full478MB provider MD5 NOT verified; full binary NOT downloaded."
+    },
+    "textures": [
+      {
+        "file": "textures/fir_tree_01_bark_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_bark_nor_gl_1k.jpg",
+        "md5": "978d32ec721696e45b38a72411c4edf4",
+        "size": 1137533,
+        "sha256": "6a570ab53ab2249ecdfa93e7d3b9a8a2cb1a8ad391400e5a64c708914779b2c3"
+      },
+      {
+        "file": "textures/fir_tree_01_bark_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_bark_diff_1k.jpg",
+        "md5": "93265c0d9fbd3cf17deabdb68aa8b5e9",
+        "size": 776567,
+        "sha256": "a5d25150ba1bee10008c039f98aa3c73b4477a404d6715c511ca9b5b0f4a9077"
+      },
+      {
+        "file": "textures/fir_tree_01_bark_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_bark_arm_1k.jpg",
+        "md5": "4e48a7fa876a1ad47401fe86277a4373",
+        "size": 789264,
+        "sha256": "95d4e9e62cd309fbc38a175e2306379c76c062425b09c0fb72c5b7356a719123"
+      },
+      {
+        "file": "textures/fir_tree_01_trunk_a_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_trunk_a_nor_gl_1k.jpg",
+        "md5": "41b92112b3b9a48eb2e1b4b3562dd937",
+        "size": 997355,
+        "sha256": "9d46c05be22de0dcc4af7e3703fde4c7397644b9faeff4914c0469a6bde99caf"
+      },
+      {
+        "file": "textures/fir_tree_01_trunk_a_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_trunk_a_diff_1k.jpg",
+        "md5": "304f688bc8212f90a39a3b77f6065ee5",
+        "size": 789806,
+        "sha256": "cfb646cbc4b6cb2db410eb4342174ebe7812a4ae03520491e788722cf1867286"
+      },
+      {
+        "file": "textures/fir_tree_01_trunk_a_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_trunk_a_arm_1k.jpg",
+        "md5": "e68adf3bf077b1552b5acff7f9d7bebf",
+        "size": 788967,
+        "sha256": "2e439391e98f427207a7fc180eb262f4c1ab3ca0ef570785ea7352826bac342b"
+      },
+      {
+        "file": "textures/fir_tree_01_twig_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_twig_nor_gl_1k.jpg",
+        "md5": "1ef6c0d7c2dc74cc073a8c33f58f3795",
+        "size": 472604,
+        "sha256": "d470dc39b1d02bbeba06feb0ad818680ef3c24623b4db597270301a5fb8c9369"
+      },
+      {
+        "file": "textures/fir_tree_01_twig_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_twig_diff_1k.jpg",
+        "md5": "d267b1117a5d6dbbbd620bd997fb498e",
+        "size": 371741,
+        "sha256": "8c0833a10e4fd44498d848cf9e659fe250a3813984cbd679f42430eb98c61fb8"
+      },
+      {
+        "file": "textures/fir_tree_01_twig_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_twig_arm_1k.jpg",
+        "md5": "b0d09189350cb716533c1590fec8f8a4",
+        "size": 407309,
+        "sha256": "d66c81fc073ee7ea97a76b6da2399769f16944e50ef0e007f09c95619f597c79"
+      },
+      {
+        "file": "textures/fir_tree_01_trunk_b_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_trunk_b_nor_gl_1k.jpg",
+        "md5": "310666823cba305dd25d1494fbe73877",
+        "size": 915273,
+        "sha256": "5e498ee6fee29437196085620c978346ba6731edad8bfc2a2642868f8bf64efe"
+      },
+      {
+        "file": "textures/fir_tree_01_trunk_b_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_trunk_b_diff_1k.jpg",
+        "md5": "00ad0c0643a4e6b34914b8ac05cc28cb",
+        "size": 687662,
+        "sha256": "9d39263a9243a4b6cd669de5e3a504eae32d52f5ab48e471cad5f7e52e052508"
+      },
+      {
+        "file": "textures/fir_tree_01_trunk_b_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_tree_01/fir_tree_01_trunk_b_arm_1k.jpg",
+        "md5": "2bd8df9326c28b68d8ace5d52adfd4f4",
+        "size": 732269,
+        "sha256": "c9e0571b2067cad25a4553119204874e6a5ea3156043cacbd5171155d856cff4"
+      },
+      {
+        "file": "textures/fir_tree_01_twig_alpha_1k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_alpha_1k.png",
+        "md5": "02ab808c8b2ff77ad9fdb2f92892db80",
+        "size": 371026,
+        "sha256": "3f399629337e7ac3af27a01b08ffb9c0d60224a9dd374a1427761a5c2eea9d6e"
+      }
+    ],
+    "selectedTriangles": 505494
+  },
+  "modification": "Selected C mesh only; official twig alpha packed into diffuse PNG; generated cylindrical UV only for exported trunk missing UV; removed secondary color; attribute-aware simplification ratio.24/error.003; no compression extension.",
+  "parts": [
+    {
+      "before": 9536,
+      "after": 1899
+    },
+    {
+      "before": 446074,
+      "after": 106637
+    },
+    {
+      "before": 3616,
+      "after": 859
+    },
+    {
+      "before": 46268,
+      "after": 11104
+    }
+  ],
+  "triangles": 120499,
+  "file": "fir-c68.glb",
+  "bytes": 14904624,
+  "sha256": "8bedc5532dca9750c908daa06e70294f9958236a9f833c01e85b600787427472"
+}

@@ -1,0 +1,35 @@
+{
+  "version": "0.22.0",
+  "date": "2026-10-14",
+  "author": "Quaternius",
+  "pack": "Ultimate Modular Men",
+  "character": "Casual_Hoodie + Casual_2 trousers and high shoes",
+  "sourceURL": "https://quaternius.com/packs/ultimatemodularcharacters.html",
+  "sources": [
+    {
+      "file": "Casual_Hoodie.gltf",
+      "sourceFileID": "1em1So1xwwQNfHJYMvzKcXkZllvtxpKP5",
+      "sha256": "dd74886c26998a0fa888b4ce557a0932d7d97b0265dd4c763154d081b7a6cb98"
+    },
+    {
+      "file": "Casual_2.gltf",
+      "sourceFileID": "1Jn7kULNmrtqP8BUUL19h8MhbdOnwPFhv",
+      "sha256": "55c654d09a2a5ff6e3bd6158d4a1b462f181cd6f1e12a0f5e9d959f9c3abc438"
+    }
+  ],
+  "license": "CC0-1.0",
+  "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sourceLicense": "License.txt",
+  "file": "visitor.glb",
+  "bytes": 1223208,
+  "sha256": "36196464b4573ad729047b25990c6395dd44ab073531115a8063d39c5bef5e37",
+  "triangles": 6222,
+  "skins": 1,
+  "animations": [
+    "Idle",
+    "Idle_Neutral",
+    "Run",
+    "Walk"
+  ],
+  "processing": "verified identical joints/bind matrices; replace modular legs and feet, keep hoodie/head and four clips; matte blue-grey hoodie, charcoal trousers and high shoes; no new rig or retargeting"
+}

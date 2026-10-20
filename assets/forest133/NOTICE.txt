@@ -1,0 +1,5 @@
+Original project geometry: taper133 spreading seed531941 and upright seed911783. Authored crown windows and three terminal shoots per tip; terminal-only taper, exact retained115 leaf geometry; not a surveyed species inventory or park scan.
+Bark input: CC0 Poly Haven Pine Tree01, Rico Cilliers / Rob Tuytel.
+https://polyhaven.com/a/pine_tree_01
+https://polyhaven.com/license
+Existing forest115, forest109, forest91 and forest53 retained as complete matched fallback families.

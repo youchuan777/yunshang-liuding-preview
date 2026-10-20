@@ -1,0 +1,83 @@
+{
+  "version": "0.6.0",
+  "date": "2026-10-13",
+  "licenseURL": "https://polyhaven.com/license",
+  "coniferGeometry": "src/pine-study.js",
+  "coniferTriangles": 6436,
+  "assets": [
+    {
+      "file": "forest-albedo.png",
+      "bytes": 7035999,
+      "sha256": "95dd39955651d44de6d13068756255f430b5bb6cbac01b967efdb69e688da5a3",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "license": "CC0-1.0",
+      "processing": "24-view offline bake; 9px RGB gutter and separate opacity; runtime alpha-weighted color and normal mipmaps"
+    },
+    {
+      "file": "forest-normals.png",
+      "bytes": 7905386,
+      "sha256": "c3b7b38617f6f6b9a814cee7a2c84a5454a185a5d5f3641aa644fd349967ce8c",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "license": "CC0-1.0",
+      "processing": "24-view offline bake; 9px RGB gutter and separate opacity; runtime alpha-weighted color and normal mipmaps"
+    },
+    {
+      "file": "forest-opacity.png",
+      "bytes": 1558958,
+      "sha256": "3a68f500d9fc6f92d1a9def7a82ce4689ecd19144c7c2c24aafc7cc43a2e8f5e",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "license": "CC0-1.0",
+      "processing": "24-view offline bake; 9px RGB gutter and separate opacity; runtime alpha-weighted color and normal mipmaps"
+    },
+    {
+      "file": "forest-foliage.png",
+      "bytes": 2157631,
+      "sha256": "135d681a151fff334f290ecc38aa57e035b7724b1b3042c88a24863ef0e040ad",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "license": "CC0-1.0",
+      "processing": "24-view offline bake; 9px RGB gutter and separate opacity; runtime alpha-weighted color and normal mipmaps"
+    },
+    {
+      "file": "pine-albedo.png",
+      "bytes": 3494965,
+      "sha256": "42829fbb17d459a0e2fbd228135872e05f21bb60927c2cb64cc709dda401f367",
+      "source": "https://polyhaven.com/a/pine_tree_01",
+      "license": "CC0 textures / original procedural geometry",
+      "processing": "24-view offline bake; 9px RGB gutter and separate opacity; runtime alpha-weighted color and normal mipmaps"
+    },
+    {
+      "file": "pine-normals.png",
+      "bytes": 4017722,
+      "sha256": "815a96b86175648acc77ceb27970e7b2932192987fc53dab017ca5ae737ad5d5",
+      "source": "https://polyhaven.com/a/pine_tree_01",
+      "license": "CC0 textures / original procedural geometry",
+      "processing": "24-view offline bake; 9px RGB gutter and separate opacity; runtime alpha-weighted color and normal mipmaps"
+    },
+    {
+      "file": "pine-opacity.png",
+      "bytes": 714499,
+      "sha256": "7baf92da27368af164c1b8e525a304bee1ce919eefd8f5b48680e7cade10e5d7",
+      "source": "https://polyhaven.com/a/pine_tree_01",
+      "license": "CC0 textures / original procedural geometry",
+      "processing": "24-view offline bake; 9px RGB gutter and separate opacity; runtime alpha-weighted color and normal mipmaps"
+    },
+    {
+      "file": "pine-foliage.png",
+      "bytes": 808881,
+      "sha256": "aab0d1d6275378fea871b412d2c75526f25a77a0eefd154dbabfa43392a5e34b",
+      "source": "https://polyhaven.com/a/pine_tree_01",
+      "license": "CC0 textures / original procedural geometry",
+      "processing": "24-view offline bake; 9px RGB gutter and separate opacity; runtime alpha-weighted color and normal mipmaps"
+    },
+    {
+      "file": "forest-lod.glb",
+      "bytes": 8631540,
+      "sha256": "7353c65bc633d30fd837548b5f880ecfa55d3751560614e383f6e59ba3ad1e16",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "license": "CC0-1.0",
+      "sourceTriangles": 1599403,
+      "triangles": 38202,
+      "processing": "Existing optimization study, reused for medium-distance trees"
+    }
+  ]
+}

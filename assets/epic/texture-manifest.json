@@ -1,0 +1,38 @@
+[
+  {
+    "asset": "kloppenheim_06_puresky",
+    "file": "sky.hdr",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/kloppenheim_06_puresky_2k.hdr",
+    "md5": "590a829b3cf71216451655e601d542c6",
+    "bytes": 4434394,
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "rock_boulder_dry",
+    "file": "rock_boulder_dry_diff_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_boulder_dry/rock_boulder_dry_diff_2k.jpg",
+    "md5": "fbc9cf377db427f54381f463c0639e1f",
+    "bytes": 3437626,
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "rock_boulder_dry",
+    "file": "rock_boulder_dry_nor_gl_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_boulder_dry/rock_boulder_dry_nor_gl_2k.jpg",
+    "md5": "513ef3fdaadd106c38a9c40919918cc0",
+    "bytes": 3307320,
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "rock_boulder_dry",
+    "file": "rock_boulder_dry_rough_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_boulder_dry/rock_boulder_dry_rough_2k.jpg",
+    "md5": "f69a2caafb58d427cb17cab31c202e0e",
+    "bytes": 2706723,
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  }
+]

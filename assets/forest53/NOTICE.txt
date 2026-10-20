@@ -1,0 +1,5 @@
+Original authored broadleaf tree geometry and rendered atlases. Generic artistic form, not a site tree/species survey.
+Bark textures reused from Poly Haven Pine Tree01, CC0-1.0, Rico Cilliers (modelling) and Rob Tuytel (photography).
+https://polyhaven.com/a/pine_tree_01
+https://polyhaven.com/license
+Original attribution and source licence records remain in assets/polyhaven and docs/素材与授权.md.

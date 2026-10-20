@@ -1,0 +1,80 @@
+[
+  {
+    "asset": "wood_table_001",
+    "kind": "Diffuse",
+    "file": "wood_table_001_diff_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_diff_2k.jpg",
+    "bytes": 924532,
+    "md5": "a36483628b915dabf82961ab2a62a85c",
+    "sha256": "63ae5cd186197b40f18bc020fe2b652bb08df4d9fc6240c6cbf8a7e3bc32c096",
+    "source": "https://polyhaven.com/a/wood_table_001",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k"
+  },
+  {
+    "asset": "wood_table_001",
+    "kind": "nor_gl",
+    "file": "wood_table_001_nor_gl_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_nor_gl_2k.jpg",
+    "bytes": 385020,
+    "md5": "50dbc9fe086df00f6bce819eae6091d1",
+    "sha256": "d56f02c911391267ddc6adc92e8a5bc29b9803196e8d57ad5b9702e6c842dc28",
+    "source": "https://polyhaven.com/a/wood_table_001",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k"
+  },
+  {
+    "asset": "wood_table_001",
+    "kind": "Rough",
+    "file": "wood_table_001_rough_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_rough_2k.jpg",
+    "bytes": 963377,
+    "md5": "a291ec6bc35b9827175cdd1592c62e03",
+    "sha256": "c788876d80e4d96598590631f8de92447fb1b0ba1265a812514ee717d270ac3e",
+    "source": "https://polyhaven.com/a/wood_table_001",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k"
+  },
+  {
+    "asset": "large_grey_tiles",
+    "kind": "Diffuse",
+    "file": "large_grey_tiles_diff_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/large_grey_tiles/large_grey_tiles_diff_2k.jpg",
+    "bytes": 1864784,
+    "md5": "f292051b23077e1a55f758076f2ad599",
+    "sha256": "6ee421e93ecf3d68d4788356a9eba76e0aabab620a7055ef57af34da7898850f",
+    "source": "https://polyhaven.com/a/large_grey_tiles",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k"
+  },
+  {
+    "asset": "large_grey_tiles",
+    "kind": "nor_gl",
+    "file": "large_grey_tiles_nor_gl_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/large_grey_tiles/large_grey_tiles_nor_gl_2k.jpg",
+    "bytes": 2056176,
+    "md5": "0f92d894ef1890cb7c55aadb1d6064f6",
+    "sha256": "87183caf28504115fa2001be3c7bbfbc2e1da4313a49ddab23ece6cd5286c03e",
+    "source": "https://polyhaven.com/a/large_grey_tiles",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k"
+  },
+  {
+    "asset": "large_grey_tiles",
+    "kind": "Rough",
+    "file": "large_grey_tiles_rough_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/large_grey_tiles/large_grey_tiles_rough_2k.jpg",
+    "bytes": 1596490,
+    "md5": "560d74cc41153298a3cbcf9da242a13a",
+    "sha256": "a9c2cc6d8607f163797d5a41d9a2304eec18f6d29c9e31ce0c471a3646c11f09",
+    "source": "https://polyhaven.com/a/large_grey_tiles",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "resolution": "2k"
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "version": "0.13.0",
+  "date": "2026-10-14",
+  "license": "CC0-1.0 textures / original procedural geometry",
+  "sourcePage": "https://polyhaven.com/a/pine_tree_01",
+  "sourceCode": "src/pine-study.js",
+  "sourceCodeSha256": "d2b56419e0d9fea9ea62eb162ff815f357af9e3e9ca7c77798f4b7282b04a3b7",
+  "bakerCodeSha256": "715df655583240ec33bbfd44ddb53717de338512af94007750e3da7864b883b8",
+  "processing": "Two original evergreen crown forms; 24 rendered views each, RGB normals/opacity/foliage mask; no fixed sun in albedo",
+  "captures": [
+    {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            4.860182523727417,
+            6.669685063301586,
+            4.876543283462524
+          ],
+          "extent": 7.3366535696317445,
+          "sourceTriangles": 23520,
+          "seed": 52893
+        },
+        {
+          "variant": 1,
+          "bounds": [
+            4.681955814361572,
+            7.057105819694698,
+            4.821469783782959
+          ],
+          "extent": 7.7628164016641685,
+          "sourceTriangles": 21920,
+          "seed": 60022
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 384,
+      "atlasSize": [
+        6144,
+        1152
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "albedo",
+      "species": "pine"
+    },
+    {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            4.860182523727417,
+            6.669685063301586,
+            4.876543283462524
+          ],
+          "extent": 7.3366535696317445,
+          "sourceTriangles": 23520,
+          "seed": 52893
+        },
+        {
+          "variant": 1,
+          "bounds": [
+            4.681955814361572,
+            7.057105819694698,
+            4.821469783782959
+          ],
+          "extent": 7.7628164016641685,
+          "sourceTriangles": 21920,
+          "seed": 60022
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 384,
+      "atlasSize": [
+        6144,
+        1152
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "normals",
+      "species": "pine"
+    },
+    {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            4.860182523727417,
+            6.669685063301586,
+            4.876543283462524
+          ],
+          "extent": 7.3366535696317445,
+          "sourceTriangles": 23520,
+          "seed": 52893
+        },
+        {
+          "variant": 1,
+          "bounds": [
+            4.681955814361572,
+            7.057105819694698,
+            4.821469783782959
+          ],
+          "extent": 7.7628164016641685,
+          "sourceTriangles": 21920,
+          "seed": 60022
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 384,
+      "atlasSize": [
+        6144,
+        1152
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "foliage",
+      "species": "pine"
+    }
+  ],
+  "capturedSourceCodeSha256": "2d173348613bd9aad18005d06d54cea5b190667ed41b235c9ebbdf45a54ba4bf",
+  "postCaptureSourceChange": "Trailing blank line removed only; geometry and materials unchanged."
+}

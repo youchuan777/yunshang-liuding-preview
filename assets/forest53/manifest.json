@@ -1,0 +1,103 @@
+{
+  "schema": 53,
+  "geometry": "Original deterministic lobed broadleaf study, seed531941; not a species identification or park scan",
+  "bark": "Existing CC0 Poly Haven Pine Tree01 bark textures, Rico Cilliers and Rob Tuytel; https://polyhaven.com/a/pine_tree_01 ; https://polyhaven.com/license",
+  "models": [
+    {
+      "seed": 531941,
+      "lod": 0,
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1719,
+      "attractors": 1700,
+      "triangles": 210632,
+      "leaves": 23232,
+      "name": "broadleaf53-lod0"
+    },
+    {
+      "seed": 531941,
+      "lod": 1,
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1719,
+      "attractors": 1700,
+      "triangles": 140936,
+      "leaves": 11616,
+      "name": "broadleaf53-lod1"
+    },
+    {
+      "seed": 531941,
+      "lod": 2,
+      "originalForm": true,
+      "speciesSurvey": false,
+      "skeletonNodes": 1719,
+      "attractors": 1700,
+      "triangles": 52576,
+      "leaves": 2904,
+      "name": "broadleaf53-lod2"
+    }
+  ],
+  "profiles": [
+    {
+      "variant": 0,
+      "bounds": [
+        10.484201908111572,
+        13.346865417435765,
+        9.708604335784912
+      ],
+      "extent": 14.681551959179343,
+      "sourceTriangles": 210632,
+      "visibleTriangles": 210632,
+      "seed": 531941
+    }
+  ],
+  "atlasViews": 24,
+  "atlasSize": [
+    4096,
+    1536
+  ],
+  "assets": [
+    {
+      "file": "temperate53-bare-albedo.png",
+      "bytes": 2556932,
+      "sha256": "d205938fda74c8ee710f6da331788a5594b493b7e53c5ed4fbfc53bb316f50a7"
+    },
+    {
+      "file": "temperate53-bare-normals.png",
+      "bytes": 4605060,
+      "sha256": "c24b2f3cbc72b6ce38fa4afacf80aed84adc5f8f1d98ceaa4d617056c9628a7e"
+    },
+    {
+      "file": "temperate53-bare-opacity.png",
+      "bytes": 1392391,
+      "sha256": "bc6dc4583194f7446af04aa59fbf0dc64551a3d82f77cd0c1c935fd8085a1196"
+    },
+    {
+      "file": "temperate53-summer-albedo.png",
+      "bytes": 5187677,
+      "sha256": "d3342ffe2b1584888ccb9805c0725a1f89fc8aa17ccdd7ec445e64c67fb7e364"
+    },
+    {
+      "file": "temperate53-summer-foliage.png",
+      "bytes": 1400521,
+      "sha256": "7f6691881af8076ce0ab6d710baefb9f6c295061e774b40da6f0a288414ff812"
+    },
+    {
+      "file": "temperate53-summer-normals.png",
+      "bytes": 6409726,
+      "sha256": "20ae5a3f049f41c8257e629705e5ac9a53935f52d24152170fd4e51f70cdd231"
+    },
+    {
+      "file": "temperate53-summer-opacity.png",
+      "bytes": 909215,
+      "sha256": "21fc6136bcc6f0ecc477c3fe32c8936014d52daaddf18cbc31b9f54095783042"
+    },
+    {
+      "file": "temperate53.glb",
+      "bytes": 29028544,
+      "sha256": "aaec5eec06bb5bf1a7212d44345837fa65b3ce5505ffcf53e778b4a276612013"
+    }
+  ],
+  "runtimeNetwork": "Local files only",
+  "notes": "Summer and bare silhouettes and all three LODs derive from the same skeleton; no tree positions changed"
+}

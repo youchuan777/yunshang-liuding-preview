@@ -1,0 +1,5 @@
+Original project geometry: open109 spreading seed531941 and upright seed911783. Authored crown windows and three terminal shoots per tip; not a surveyed species inventory or park scan.
+Bark input: CC0 Poly Haven Pine Tree01, Rico Cilliers / Rob Tuytel.
+https://polyhaven.com/a/pine_tree_01
+https://polyhaven.com/license
+Existing forest91 and forest53 retained as complete matched fallback families.

@@ -1,0 +1,25 @@
+{
+  "version": "0.21.0",
+  "date": "2026-10-14",
+  "author": "Quaternius",
+  "pack": "Ultimate Modular Men",
+  "character": "Casual_Hoodie",
+  "sourceURL": "https://quaternius.com/packs/ultimatemodularcharacters.html",
+  "sourceFileID": "1em1So1xwwQNfHJYMvzKcXkZllvtxpKP5",
+  "sourceSHA256": "dd74886c26998a0fa888b4ce557a0932d7d97b0265dd4c763154d081b7a6cb98",
+  "license": "CC0-1.0",
+  "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sourceLicense": "License.txt",
+  "file": "visitor.glb",
+  "bytes": 1212280,
+  "sha256": "97627e613beb19a4f9a9a40b4311b4ac7189b3d05380b753f84b646d126fc32d",
+  "triangles": 6206,
+  "skins": 1,
+  "animations": [
+    "Idle",
+    "Idle_Neutral",
+    "Run",
+    "Walk"
+  ],
+  "processing": "keep four locomotion/neutral clips; recolor hoodie and set matte nonmetal surfaces; no new rig/retargeting or external software"
+}

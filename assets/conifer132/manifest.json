@@ -1,0 +1,290 @@
+{
+  "errors": [],
+  "assets": [
+    {
+      "file": "conifer132-albedo.png",
+      "bytes": 3208773,
+      "sha256": "c3b52e228c91dbfb3398a0dc63c4d956fea27de06931b7904286a05789b67c85",
+      "sparseHalfDecodedSHA256": "f48a69d70207ce5d187f274d7e66e87b465a772feee630ba6f5a52b3b7122908"
+    },
+    {
+      "file": "conifer132-opacity.png",
+      "bytes": 454599,
+      "sha256": "41792136ad2dc06e58cff48b9e13b4c81aefce8466817b0806aedbc9d539b12d",
+      "sparseHalfDecodedSHA256": "415300b785be51e8b2e93ff126f409981e7f9582ea72c5c71493b91be96b46df"
+    },
+    {
+      "file": "conifer132-normals.png",
+      "bytes": 4065233,
+      "sha256": "f0269de71214ed5b7832366436d3ad6ee6e22248aa6e919326f41d0ad392484c",
+      "sparseHalfDecodedSHA256": "616ecec94d4d3c36c92834c1935238db92dc4d291eb52e578a6d3e3b461bf53c"
+    },
+    {
+      "file": "conifer132-foliage.png",
+      "bytes": 584647,
+      "sha256": "d081ebe635adf5c64a34315bab8957c2861f30feb182fa43bf42746e5b83a66c",
+      "sparseHalfDecodedSHA256": "8dca186df7a9e536da8da96e1ad6d0d7727d090b9fe33e13e8b900db16de14b8"
+    }
+  ],
+  "albedo": {
+    "profiles": [
+      {
+        "variant": 0,
+        "bounds": [
+          4.573680400848389,
+          6.669685063301586,
+          4.541692018508911
+        ],
+        "extent": 7.3366535696317445,
+        "sourceTriangles": 20412,
+        "visibleTriangles": 20412,
+        "seed": 52893
+      },
+      {
+        "variant": 1,
+        "bounds": [
+          6.25672173500061,
+          14.502487696707249,
+          5.936708688735962
+        ],
+        "extent": 15.952736466377974,
+        "sourceTriangles": 120499,
+        "visibleTriangles": 120499
+      }
+    ],
+    "azimuthViews": 8,
+    "elevationDegrees": [
+      0,
+      30,
+      60
+    ],
+    "frameSize": 384,
+    "atlasSize": [
+      6144,
+      1152
+    ],
+    "transparentRGBPadding": 9,
+    "separateOpacity": true,
+    "kind": "albedo",
+    "species": "conifer132",
+    "bare": false
+  },
+  "normals": {
+    "profiles": [
+      {
+        "variant": 0,
+        "bounds": [
+          4.573680400848389,
+          6.669685063301586,
+          4.541692018508911
+        ],
+        "extent": 7.3366535696317445,
+        "sourceTriangles": 20412,
+        "visibleTriangles": 20412,
+        "seed": 52893
+      },
+      {
+        "variant": 1,
+        "bounds": [
+          6.25672173500061,
+          14.502487696707249,
+          5.936708688735962
+        ],
+        "extent": 15.952736466377974,
+        "sourceTriangles": 120499,
+        "visibleTriangles": 120499
+      }
+    ],
+    "azimuthViews": 8,
+    "elevationDegrees": [
+      0,
+      30,
+      60
+    ],
+    "frameSize": 384,
+    "atlasSize": [
+      6144,
+      1152
+    ],
+    "transparentRGBPadding": 9,
+    "separateOpacity": true,
+    "kind": "normals",
+    "species": "conifer132",
+    "bare": false
+  },
+  "foliage": {
+    "profiles": [
+      {
+        "variant": 0,
+        "bounds": [
+          4.573680400848389,
+          6.669685063301586,
+          4.541692018508911
+        ],
+        "extent": 7.3366535696317445,
+        "sourceTriangles": 20412,
+        "visibleTriangles": 20412,
+        "seed": 52893
+      },
+      {
+        "variant": 1,
+        "bounds": [
+          6.25672173500061,
+          14.502487696707249,
+          5.936708688735962
+        ],
+        "extent": 15.952736466377974,
+        "sourceTriangles": 120499,
+        "visibleTriangles": 120499
+      }
+    ],
+    "azimuthViews": 8,
+    "elevationDegrees": [
+      0,
+      30,
+      60
+    ],
+    "frameSize": 384,
+    "atlasSize": [
+      6144,
+      1152
+    ],
+    "transparentRGBPadding": 9,
+    "separateOpacity": true,
+    "kind": "foliage",
+    "species": "conifer132",
+    "bare": false
+  },
+  "sparseHalf": "Exact decoded RGB from retained conifer68 for all four maps; fresh SwiftShader bake differs slightly from old rasterization and was not retained for the unchanged sparse form.",
+  "schema": 132,
+  "denseProfile": "open132",
+  "authoringSourceSHA256": "3ab5372355d6443fa49015000b964bcdef89a47d5402d16ad8f7f4daf1950fdd",
+  "retainedSparseMesh": {
+    "file": "../fir68/fir-c68.glb",
+    "sha256": "8bedc5532dca9750c908daa06e70294f9958236a9f833c01e85b600787427472"
+  },
+  "legacyGeometry": [
+    {
+      "variant": 0,
+      "bounds": {
+        "min": [
+          -2.3539884090423584,
+          -0.0017616128316149116,
+          -2.6218152046203613
+        ],
+        "max": [
+          2.5061941146850586,
+          6.667923450469971,
+          2.254728078842163
+        ]
+      },
+      "triangles": 23520,
+      "parts": [
+        {
+          "attributes": {
+            "position": "ed059bf4359d5386f7fef3134d6cb631bf60db730819dd6f36cb85ddbec232d2",
+            "uv": "125c5e73e45ac73b538acebba5bfe323db529fcaec702cc789c6c5127c327de4",
+            "normal": "6ffb58ea28fc516eff44f7294568a3eaf4af5914cb566c44f1ed9a2dc81f8b48"
+          },
+          "index": "e411109fff4f6db4d68abbc57f82b9be61f51a2a78653217be670fe39ca54ff1"
+        },
+        {
+          "attributes": {
+            "position": "fc8bc4bf2e1b1d8b131ca8e3b9069ef189a80b617145a79cd182e0547ae8e92c",
+            "uv": "6906f5c59e64c0bbf642f77fa74462b5902ae3006ff75e0a8b79ebb30e9453da",
+            "color": "88507e197c32c45f378df1a730583bc0e4aef1776465ad0ac33080e75f584a96",
+            "normal": "80ce9e57bfa3c55f5a9481069d6c7d61829b03956b6baa0efdb3a899ebcb9233"
+          },
+          "index": "ef0abf309740b49b190cebcf027d3ac692f367c8a902e11227f301bfdef2f546"
+        }
+      ]
+    },
+    {
+      "variant": 1,
+      "bounds": {
+        "min": [
+          -2.319514513015747,
+          -0.004368106834590435,
+          -2.267657518386841
+        ],
+        "max": [
+          2.362441301345825,
+          7.052737712860107,
+          2.553812265396118
+        ]
+      },
+      "triangles": 21920,
+      "parts": [
+        {
+          "attributes": {
+            "position": "acde2baa3a82255e7d39f05739cf552dbf6cde7f27ed533ef2955a590ba34550",
+            "uv": "6c6f11e7d8259fdc9dc65f63fd05fea916ccdac376972d4753441ac723a14778",
+            "normal": "b3c623551d865c1d5ead4ee49737f5ccfaaeba6fa7a492838af647ad401da3f0"
+          },
+          "index": "d633bec5355d5937ce6310559e43bcd507f1bac06911b70e56517fec50b16c7e"
+        },
+        {
+          "attributes": {
+            "position": "d9fe3d402169fe5d85f2432c72e38cf1b71e1d924e80fffe1b8fee9582f3e602",
+            "uv": "ab71f456eb423cebc6665f22ab5f0554a84883b86e51a9e18abdc7f64b99dc25",
+            "color": "5c06105a887633e9f2727b101c8fbe6f180fe1cb54a16a9de6e7c26d437f4fa2",
+            "normal": "963b750f4b66f820be08c40f1825597d47dfd1f02dbcf47eac4739f06efc809f"
+          },
+          "index": "931f006c36a21d91e3f5ae182b0c4066a9af65bbfbc3b24cb5c55ffc4e4fa92c"
+        }
+      ]
+    }
+  ],
+  "openGeometry": {
+    "triangles": 20412,
+    "bounds": {
+      "min": [
+        -2.3018996715545654,
+        -0.0017616128316149116,
+        -2.3498308658599854
+      ],
+      "max": [
+        2.2717807292938232,
+        6.667923450469971,
+        2.191861152648926
+      ]
+    },
+    "parts": [
+      {
+        "attributes": {
+          "position": "1d75b813b6286197eb2b0c64a18581796f703c7eef4173b0d3f7bcbecdedc1ba",
+          "uv": "bc54aa8718a487dc4dbdd62d01b833d8371e85f12bd12616eee3e62e6e9a50ca",
+          "normal": "07fce435b6e6b8e6296cfd7d8b53f6892ab92cc9b97a89976bd433d80058c0ba"
+        },
+        "index": "e411109fff4f6db4d68abbc57f82b9be61f51a2a78653217be670fe39ca54ff1"
+      },
+      {
+        "attributes": {
+          "position": "49f20b0fefa49b1f2191d62afb4ffe12a748baee38e7d9fe318c5a8f5745bc71",
+          "uv": "e0e3e8feb22a66b64d930509bf88aca4134b10e052a9398f7e469e76c51bf3b8",
+          "color": "bd8863b09fd7fd89aa8b0a75436d9cb9909f2ebffeb81f703d8cefa2a24e7953",
+          "normal": "a84e7e69716b60d04e91be5862d06f6e9bb407e4f3357c81dd1f2ee484b50751"
+        },
+        "index": "f91bef0bb9e8886ce4c2371dcfa249585a0f4a6c15d127dbcc043570482d8f1d"
+      }
+    ]
+  },
+  "retainedSparseAtlases": [
+    {
+      "file": "../fir68/conifer68-albedo.png",
+      "sha256": "12574a6f47366794b88a9630877f2e13e03c333b599ae4acdaedd7776745ea50"
+    },
+    {
+      "file": "../fir68/conifer68-normals.png",
+      "sha256": "18d93eeae3c6ad7282a749155309f091038ad2bde6365e02a48f6bed94bb42e1"
+    },
+    {
+      "file": "../fir68/conifer68-opacity.png",
+      "sha256": "4228198431254677c51baacb8f9ae34fd7e1c2663b0dc563804591309462083f"
+    },
+    {
+      "file": "../fir68/conifer68-foliage.png",
+      "sha256": "8e4bfe39051aced304aac942862cdace131ce146c00bc99a00a8a88bf4a72b8f"
+    }
+  ]
+}

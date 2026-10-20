@@ -1,0 +1,16 @@
+{
+  "bounds": [
+    4.755149602890015,
+    5.02744660153985,
+    4.8176796436309814
+  ],
+  "extent": 5.781563591770827,
+  "sourceTriangles": 1599403,
+  "views": 8,
+  "asset": "island_tree_01",
+  "file": "tree-atlas.png",
+  "license": "CC0-1.0",
+  "sourcePage": "https://polyhaven.com/a/island_tree_01",
+  "processing": "8 views rendered from original unmodified geometry in Three.js; transparent background; HDR and local lights",
+  "sha256": "106e584df38cb8ce4c283f759374f1f02e42a7d2d5174c54da03cd2258baa819"
+}

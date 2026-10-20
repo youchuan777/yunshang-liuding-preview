@@ -1,0 +1,67 @@
+{
+  "version": "0.29.0",
+  "date": "2026-10-15",
+  "file": "jinding-study29.glb",
+  "bytes": 13464160,
+  "sha256": "ac0ed0d3be21c171eb48ee826440ac30a3bd0dedc73291a92e375caca58be89d",
+  "sourceFile": "jinding-shape-original.glb",
+  "sourceBytes": 42365848,
+  "sourceSHA256": "9606e7095c4f90d93ee0d0493f2e330afab79554e2e35d9d0a71a354f49080b0",
+  "sourceTriangles": 2353600,
+  "triangles": 517792,
+  "parts": [
+    {
+      "before": 2353600,
+      "after": 517792,
+      "vertices": 258892,
+      "min": [
+        -0.9924458265304565,
+        -0.9684073328971863,
+        -0.7033511400222778
+      ],
+      "max": [
+        0.9956008791923523,
+        0.9623520970344543,
+        0.6871641874313354
+      ],
+      "settings": {
+        "ratio": 0.22,
+        "error": 0.0008,
+        "lockBorder": false
+      },
+      "repairedNormals": 0
+    }
+  ],
+  "production": "OpenAI built-in imagegen reference -> Tencent official Hunyuan3D-2.1 shape_generation -> existing Meshopt simplification -> smooth normals and original subtle vertex-colour bronze finish",
+  "generatedStudy": true,
+  "surveyedReplica": false,
+  "referenceFile": "jinding-model-reference-v1.png",
+  "referenceSHA256": "624bce3efd5314322300e1cfdf39368559c3cc0c08b4d97eac24f22d22b2e810",
+  "service": "https://huggingface.co/spaces/tencent/Hunyuan3D-2.1",
+  "eventId": "426875fa4fc24a88b0581e0a0cab39b5",
+  "parameters": {
+    "steps": 30,
+    "guidance": 5,
+    "seed": 20261015,
+    "octree": 512,
+    "removeBackground": false,
+    "chunks": 8000,
+    "randomizeSeed": false
+  },
+  "references": [
+    {
+      "url": "https://gs.ctrip.com/html5/you/travels/1388/4037951.html",
+      "author": "山水不系舟",
+      "use": "private visual reference only; original photographs not distributed in the runtime package"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:吉林_敦化_正覺寺_(11837026875).jpg",
+      "author": "嘉銘 詹 / Jerome Zhan",
+      "license": "CC BY-SA 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "use": "on-site silhouette reference; new generated reference is an interpretation, not a photograph"
+    }
+  ],
+  "boundsPolicy": "Publicly described height including lotus48m; iconographic silhouette, hidden geometry and transverse proportions remain a generated study. Do not describe as a scanned/measured monument.",
+  "licenseNotes": "This generated asset is not asserted CC0. Preserve input attribution and included Tencent Hunyuan3D2.1 terms; model output is subject to its applicable use restrictions. Do not relicense source photographs."
+}

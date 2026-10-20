@@ -1,0 +1,102 @@
+{
+  "version": "0.20.0",
+  "date": "2026-10-14",
+  "sourceModel": "island_tree_01-full.glb",
+  "sourceModelSHA256": "eb3c207b83de1b19a3e298c9dacb1b23a0e8b3821d29a55da02268f2a6337268",
+  "sourceURL": "https://polyhaven.com/a/island_tree_01",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "bakeCode": "src/bake-forest.js",
+  "bakeCodeSHA256": "603db9fd482e6a2b62489b1b49b196ba7411f9bf55a90247e7f1f25dd2883035",
+  "captures": [
+    {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            4.755149602890015,
+            5.02744660153985,
+            4.8176796436309814
+          ],
+          "extent": 5.530191261693836,
+          "sourceTriangles": 1599403,
+          "visibleTriangles": 539371
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "atlasSize": [
+        4096,
+        1536
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "albedo",
+      "species": "broadleaf",
+      "bare": true
+    },
+    {
+      "profiles": [
+        {
+          "variant": 0,
+          "bounds": [
+            4.755149602890015,
+            5.02744660153985,
+            4.8176796436309814
+          ],
+          "extent": 5.530191261693836,
+          "sourceTriangles": 1599403,
+          "visibleTriangles": 539371
+        }
+      ],
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "atlasSize": [
+        4096,
+        1536
+      ],
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "normal",
+      "species": "broadleaf",
+      "bare": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "forest-bare20-albedo.png",
+      "bytes": 4817172,
+      "sha256": "8f40822c077cdb4a195cebe726ff66f38f28be9d29fa1c0cc988a0e6ed4853a5",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "license": "CC0-1.0",
+      "processing": "24-view bare branch render of existing licensed model, same full canopy bounds, RGB padding and separate opacity"
+    },
+    {
+      "file": "forest-bare20-normals.png",
+      "bytes": 5988003,
+      "sha256": "1017d5b6f0752d4cfa55d147f3cf4e8913282fd8746171bfd67ca182593fe0f0",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "license": "CC0-1.0",
+      "processing": "24-view bare branch render of existing licensed model, same full canopy bounds, RGB padding and separate opacity"
+    },
+    {
+      "file": "forest-bare20-opacity.png",
+      "bytes": 1523241,
+      "sha256": "9a5d498ecd994df9c961109858264aa7c82053c8fdd2bf9d4abb88a8ffc74473",
+      "source": "https://polyhaven.com/a/island_tree_01",
+      "license": "CC0-1.0",
+      "processing": "24-view bare branch render of existing licensed model, same full canopy bounds, RGB padding and separate opacity"
+    }
+  ],
+  "genericStudyNotLocalSpeciesSurvey": true
+}

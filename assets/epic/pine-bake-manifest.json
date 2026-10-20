@@ -1,0 +1,68 @@
+{
+  "license": "CC0-1.0 textures / original procedural geometry",
+  "processing": "Branch and twig geometry rendered to albedo, view normals and opacity, 24 directions",
+  "sourcePage": "https://polyhaven.com/a/pine_tree_01",
+  "captures": [
+    {
+      "bounds": [
+        3.398650884628296,
+        5.186575412750244,
+        3.70979380607605
+      ],
+      "extent": 5.705232954025269,
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "sourceTriangles": 6436,
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "albedo",
+      "species": "pine"
+    },
+    {
+      "bounds": [
+        3.398650884628296,
+        5.186575412750244,
+        3.70979380607605
+      ],
+      "extent": 5.705232954025269,
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "sourceTriangles": 6436,
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "normals",
+      "species": "pine"
+    },
+    {
+      "bounds": [
+        3.398650884628296,
+        5.186575412750244,
+        3.70979380607605
+      ],
+      "extent": 5.705232954025269,
+      "azimuthViews": 8,
+      "elevationDegrees": [
+        0,
+        30,
+        60
+      ],
+      "frameSize": 512,
+      "sourceTriangles": 6436,
+      "transparentRGBPadding": 9,
+      "separateOpacity": true,
+      "kind": "foliage",
+      "species": "pine"
+    }
+  ],
+  "sourceCode": "src/pine-study.js"
+}

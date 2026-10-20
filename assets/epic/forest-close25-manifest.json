@@ -1,0 +1,96 @@
+{
+  "version": "0.25.0",
+  "date": "2026-10-14",
+  "source": "https://polyhaven.com/a/island_tree_01",
+  "license": "CC0-1.0",
+  "sourceFile": "island_tree_01-full.glb",
+  "sourceSHA256": "eb3c207b83de1b19a3e298c9dacb1b23a0e8b3821d29a55da02268f2a6337268",
+  "file": "forest-close25.glb",
+  "bytes": 19733508,
+  "sha256": "fd8883b3e43b6724f13cc00d49f375a1b40b02084e4ce3fc6f74a6991f1bf34e",
+  "sourceTriangles": 1599403,
+  "triangles": 296671,
+  "parts": [
+    {
+      "material": "island_tree_01",
+      "before": 34787,
+      "after": 34787,
+      "componentsAfterWeld": 35,
+      "componentsAfterSimplification": 35,
+      "settings": "original trunk retained"
+    },
+    {
+      "material": "island_tree_01_leaves",
+      "before": 1060032,
+      "after": 190805,
+      "componentsAfterWeld": 44168,
+      "componentsAfterSimplification": 44109,
+      "settings": {
+        "ratio": 0.18,
+        "error": 0.0009,
+        "lockBorder": false
+      }
+    },
+    {
+      "material": "island_tree_01_branches",
+      "before": 504584,
+      "after": 71079,
+      "componentsAfterWeld": 8357,
+      "componentsAfterSimplification": 4376,
+      "settings": {
+        "ratio": 0.15,
+        "error": 0.00125,
+        "lockBorder": false
+      }
+    }
+  ],
+  "images": [
+    {
+      "sha256": "ca22e428e1b1ebac47b2fc67ec355700c8779d6628d2fc6c3ebae9002988f63e",
+      "bytes": 1207134,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "51bff9a3a6ed7d89ff4c73f01708b7267ed8d7a82b0cb12343741894f708218f",
+      "bytes": 791327,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "bf972dff0fbc71f146b4c02103fc3596477a49a9eff46b87b13c89b7b90d18ca",
+      "bytes": 727403,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "07ba461c0c95da4e49a42981766bdb6191d4c3c4d815796c082266dcc3cecdb8",
+      "bytes": 379443,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "f56d762a1507754752abf164cc12acbc1e87ce87fa609ac44b98a1b0037c89d8",
+      "bytes": 191886,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "90da3a072dbcb052715b1313b9dbc69a4aa8a09a31a4b3868411a2bb51d72037",
+      "bytes": 489476,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "2d67393ba76a0f49cf965fa0c99d8c16268e71e87b1203d35539bfdb971a514e",
+      "bytes": 819101,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "bee5ec22196e9e31ad0c95a5a9b4636571cc0124d5bb27a92f1e307d289cc60d",
+      "bytes": 528304,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "sha256": "9e3f82263247ce4f619692cea4c4f6fe9936ff465a86623481849062642c7d05",
+      "bytes": 484806,
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "processing": "existing Meshopt simplifier with conservative relative-error limits; preserve original trunk, nodes, material names, embedded textures and UVs; original asset remains available for close inspection",
+  "errorNote": "Simplifier error is an approximate normalized geometric bound, not measured screen/pixel error or survey accuracy. Graph components can include UV/normal seams; they are not a botanical leaf or twig count."
+}
